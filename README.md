@@ -1,1 +1,1 @@
-# UniRD: A Unified Reverse Distillation Model for Multi-class Anomaly Detection
+# Enhancing Reverse Distillation Model for Multi-Class Unsupervised Anomaly Detection via Latent Space Regularization
