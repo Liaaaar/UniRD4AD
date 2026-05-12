@@ -1,0 +1,323 @@
+device = cuda
+epoch [1/200], loss_total:0.7224, loss_rd:0.6055, loss_svdd:0.1169
+epoch [2/200], loss_total:0.3843, loss_rd:0.3760, loss_svdd:0.0084
+epoch [3/200], loss_total:0.3265, loss_rd:0.3200, loss_svdd:0.0065
+epoch [4/200], loss_total:0.2952, loss_rd:0.2895, loss_svdd:0.0057
+epoch [5/200], loss_total:0.2727, loss_rd:0.2675, loss_svdd:0.0052
+Sample Auroc{'candle': 0.924, 'capsules': 0.774, 'cashew': 0.956, 'chewinggum': 0.965, 'fryum': 0.939, 'macaroni1': 0.933, 'macaroni2': 0.745, 'pcb1': 0.939, 'pcb2': 0.856, 'pcb3': 0.864, 'pcb4': 0.995, 'pipe_fryum': 0.991, 'mean': 0.907}
+Pixel Auroc:{'candle': 0.987, 'capsules': 0.981, 'cashew': 0.919, 'chewinggum': 0.969, 'fryum': 0.965, 'macaroni1': 0.984, 'macaroni2': 0.98, 'pcb1': 0.993, 'pcb2': 0.974, 'pcb3': 0.981, 'pcb4': 0.971, 'pipe_fryum': 0.99, 'mean': 0.974}
+Pixel Aupro{'candle': 0.94, 'capsules': 0.874, 'cashew': 0.889, 'chewinggum': 0.795, 'fryum': 0.906, 'macaroni1': 0.876, 'macaroni2': 0.925, 'pcb1': 0.933, 'pcb2': 0.886, 'pcb3': 0.891, 'pcb4': 0.855, 'pipe_fryum': 0.968, 'mean': 0.895}
+epoch [6/200], loss_total:0.2591, loss_rd:0.2544, loss_svdd:0.0047
+epoch [7/200], loss_total:0.2447, loss_rd:0.2404, loss_svdd:0.0043
+epoch [8/200], loss_total:0.2360, loss_rd:0.2320, loss_svdd:0.0040
+epoch [9/200], loss_total:0.2331, loss_rd:0.2269, loss_svdd:0.0063
+epoch [10/200], loss_total:0.2230, loss_rd:0.2187, loss_svdd:0.0043
+Sample Auroc{'candle': 0.96, 'capsules': 0.845, 'cashew': 0.971, 'chewinggum': 0.96, 'fryum': 0.942, 'macaroni1': 0.941, 'macaroni2': 0.847, 'pcb1': 0.947, 'pcb2': 0.917, 'pcb3': 0.903, 'pcb4': 1.0, 'pipe_fryum': 0.994, 'mean': 0.936}
+Pixel Auroc:{'candle': 0.988, 'capsules': 0.987, 'cashew': 0.911, 'chewinggum': 0.97, 'fryum': 0.966, 'macaroni1': 0.987, 'macaroni2': 0.985, 'pcb1': 0.993, 'pcb2': 0.981, 'pcb3': 0.986, 'pcb4': 0.979, 'pipe_fryum': 0.991, 'mean': 0.977}
+Pixel Aupro{'candle': 0.946, 'capsules': 0.918, 'cashew': 0.899, 'chewinggum': 0.802, 'fryum': 0.916, 'macaroni1': 0.894, 'macaroni2': 0.946, 'pcb1': 0.936, 'pcb2': 0.908, 'pcb3': 0.915, 'pcb4': 0.879, 'pipe_fryum': 0.972, 'mean': 0.911}
+epoch [11/200], loss_total:0.2164, loss_rd:0.2129, loss_svdd:0.0035
+epoch [12/200], loss_total:0.2101, loss_rd:0.2069, loss_svdd:0.0032
+epoch [13/200], loss_total:0.2063, loss_rd:0.2032, loss_svdd:0.0031
+epoch [14/200], loss_total:0.2021, loss_rd:0.1992, loss_svdd:0.0030
+epoch [15/200], loss_total:0.1980, loss_rd:0.1952, loss_svdd:0.0028
+Sample Auroc{'candle': 0.964, 'capsules': 0.872, 'cashew': 0.959, 'chewinggum': 0.955, 'fryum': 0.948, 'macaroni1': 0.963, 'macaroni2': 0.877, 'pcb1': 0.948, 'pcb2': 0.93, 'pcb3': 0.92, 'pcb4': 0.999, 'pipe_fryum': 0.996, 'mean': 0.944}
+Pixel Auroc:{'candle': 0.989, 'capsules': 0.99, 'cashew': 0.911, 'chewinggum': 0.971, 'fryum': 0.969, 'macaroni1': 0.991, 'macaroni2': 0.99, 'pcb1': 0.994, 'pcb2': 0.98, 'pcb3': 0.988, 'pcb4': 0.984, 'pipe_fryum': 0.991, 'mean': 0.979}
+Pixel Aupro{'candle': 0.947, 'capsules': 0.937, 'cashew': 0.891, 'chewinggum': 0.802, 'fryum': 0.923, 'macaroni1': 0.922, 'macaroni2': 0.961, 'pcb1': 0.937, 'pcb2': 0.906, 'pcb3': 0.924, 'pcb4': 0.898, 'pipe_fryum': 0.974, 'mean': 0.918}
+epoch [16/200], loss_total:0.1958, loss_rd:0.1931, loss_svdd:0.0027
+epoch [17/200], loss_total:0.1920, loss_rd:0.1894, loss_svdd:0.0026
+epoch [18/200], loss_total:0.1997, loss_rd:0.1933, loss_svdd:0.0064
+epoch [19/200], loss_total:0.1914, loss_rd:0.1878, loss_svdd:0.0036
+epoch [20/200], loss_total:0.1845, loss_rd:0.1820, loss_svdd:0.0025
+Sample Auroc{'candle': 0.957, 'capsules': 0.887, 'cashew': 0.954, 'chewinggum': 0.956, 'fryum': 0.94, 'macaroni1': 0.968, 'macaroni2': 0.885, 'pcb1': 0.954, 'pcb2': 0.939, 'pcb3': 0.922, 'pcb4': 0.999, 'pipe_fryum': 0.997, 'mean': 0.946}
+Pixel Auroc:{'candle': 0.989, 'capsules': 0.991, 'cashew': 0.901, 'chewinggum': 0.967, 'fryum': 0.968, 'macaroni1': 0.993, 'macaroni2': 0.989, 'pcb1': 0.993, 'pcb2': 0.982, 'pcb3': 0.989, 'pcb4': 0.984, 'pipe_fryum': 0.991, 'mean': 0.978}
+Pixel Aupro{'candle': 0.948, 'capsules': 0.945, 'cashew': 0.867, 'chewinggum': 0.785, 'fryum': 0.924, 'macaroni1': 0.931, 'macaroni2': 0.959, 'pcb1': 0.938, 'pcb2': 0.91, 'pcb3': 0.929, 'pcb4': 0.899, 'pipe_fryum': 0.973, 'mean': 0.917}
+epoch [21/200], loss_total:0.1723, loss_rd:0.1707, loss_svdd:0.0016
+epoch [22/200], loss_total:0.1714, loss_rd:0.1699, loss_svdd:0.0014
+epoch [23/200], loss_total:0.1705, loss_rd:0.1690, loss_svdd:0.0014
+epoch [24/200], loss_total:0.1692, loss_rd:0.1677, loss_svdd:0.0014
+epoch [25/200], loss_total:0.1680, loss_rd:0.1666, loss_svdd:0.0015
+Sample Auroc{'candle': 0.957, 'capsules': 0.913, 'cashew': 0.954, 'chewinggum': 0.967, 'fryum': 0.953, 'macaroni1': 0.971, 'macaroni2': 0.897, 'pcb1': 0.957, 'pcb2': 0.944, 'pcb3': 0.936, 'pcb4': 0.999, 'pipe_fryum': 0.998, 'mean': 0.954}
+Pixel Auroc:{'candle': 0.99, 'capsules': 0.992, 'cashew': 0.907, 'chewinggum': 0.971, 'fryum': 0.97, 'macaroni1': 0.993, 'macaroni2': 0.991, 'pcb1': 0.994, 'pcb2': 0.983, 'pcb3': 0.989, 'pcb4': 0.986, 'pipe_fryum': 0.991, 'mean': 0.98}
+Pixel Aupro{'candle': 0.948, 'capsules': 0.969, 'cashew': 0.872, 'chewinggum': 0.799, 'fryum': 0.928, 'macaroni1': 0.932, 'macaroni2': 0.965, 'pcb1': 0.938, 'pcb2': 0.909, 'pcb3': 0.933, 'pcb4': 0.906, 'pipe_fryum': 0.974, 'mean': 0.923}
+epoch [26/200], loss_total:0.1667, loss_rd:0.1652, loss_svdd:0.0015
+epoch [27/200], loss_total:0.1661, loss_rd:0.1646, loss_svdd:0.0015
+epoch [28/200], loss_total:0.1646, loss_rd:0.1631, loss_svdd:0.0015
+epoch [29/200], loss_total:0.1625, loss_rd:0.1611, loss_svdd:0.0014
+epoch [30/200], loss_total:0.1619, loss_rd:0.1605, loss_svdd:0.0014
+Sample Auroc{'candle': 0.963, 'capsules': 0.922, 'cashew': 0.954, 'chewinggum': 0.958, 'fryum': 0.958, 'macaroni1': 0.97, 'macaroni2': 0.896, 'pcb1': 0.959, 'pcb2': 0.949, 'pcb3': 0.941, 'pcb4': 0.998, 'pipe_fryum': 0.998, 'mean': 0.955}
+Pixel Auroc:{'candle': 0.99, 'capsules': 0.992, 'cashew': 0.916, 'chewinggum': 0.971, 'fryum': 0.97, 'macaroni1': 0.993, 'macaroni2': 0.992, 'pcb1': 0.994, 'pcb2': 0.984, 'pcb3': 0.989, 'pcb4': 0.986, 'pipe_fryum': 0.992, 'mean': 0.981}
+Pixel Aupro{'candle': 0.948, 'capsules': 0.97, 'cashew': 0.878, 'chewinggum': 0.804, 'fryum': 0.929, 'macaroni1': 0.936, 'macaroni2': 0.969, 'pcb1': 0.938, 'pcb2': 0.91, 'pcb3': 0.933, 'pcb4': 0.908, 'pipe_fryum': 0.974, 'mean': 0.925}
+epoch [31/200], loss_total:0.1602, loss_rd:0.1589, loss_svdd:0.0014
+epoch [32/200], loss_total:0.1590, loss_rd:0.1576, loss_svdd:0.0014
+epoch [33/200], loss_total:0.1586, loss_rd:0.1572, loss_svdd:0.0014
+epoch [34/200], loss_total:0.1571, loss_rd:0.1558, loss_svdd:0.0013
+epoch [35/200], loss_total:0.1557, loss_rd:0.1544, loss_svdd:0.0013
+Sample Auroc{'candle': 0.958, 'capsules': 0.921, 'cashew': 0.959, 'chewinggum': 0.955, 'fryum': 0.962, 'macaroni1': 0.978, 'macaroni2': 0.912, 'pcb1': 0.964, 'pcb2': 0.955, 'pcb3': 0.947, 'pcb4': 0.999, 'pipe_fryum': 0.997, 'mean': 0.959}
+Pixel Auroc:{'candle': 0.99, 'capsules': 0.992, 'cashew': 0.908, 'chewinggum': 0.971, 'fryum': 0.971, 'macaroni1': 0.994, 'macaroni2': 0.992, 'pcb1': 0.995, 'pcb2': 0.985, 'pcb3': 0.989, 'pcb4': 0.986, 'pipe_fryum': 0.991, 'mean': 0.98}
+Pixel Aupro{'candle': 0.947, 'capsules': 0.952, 'cashew': 0.872, 'chewinggum': 0.805, 'fryum': 0.931, 'macaroni1': 0.94, 'macaroni2': 0.97, 'pcb1': 0.943, 'pcb2': 0.914, 'pcb3': 0.937, 'pcb4': 0.909, 'pipe_fryum': 0.974, 'mean': 0.924}
+epoch [36/200], loss_total:0.1547, loss_rd:0.1534, loss_svdd:0.0013
+epoch [37/200], loss_total:0.1533, loss_rd:0.1520, loss_svdd:0.0013
+epoch [38/200], loss_total:0.1526, loss_rd:0.1513, loss_svdd:0.0013
+epoch [39/200], loss_total:0.1519, loss_rd:0.1506, loss_svdd:0.0013
+epoch [40/200], loss_total:0.1529, loss_rd:0.1504, loss_svdd:0.0025
+Sample Auroc{'candle': 0.959, 'capsules': 0.914, 'cashew': 0.956, 'chewinggum': 0.959, 'fryum': 0.956, 'macaroni1': 0.977, 'macaroni2': 0.906, 'pcb1': 0.964, 'pcb2': 0.954, 'pcb3': 0.947, 'pcb4': 0.998, 'pipe_fryum': 0.997, 'mean': 0.957}
+Pixel Auroc:{'candle': 0.99, 'capsules': 0.992, 'cashew': 0.904, 'chewinggum': 0.97, 'fryum': 0.971, 'macaroni1': 0.994, 'macaroni2': 0.992, 'pcb1': 0.995, 'pcb2': 0.985, 'pcb3': 0.989, 'pcb4': 0.986, 'pipe_fryum': 0.991, 'mean': 0.98}
+Pixel Aupro{'candle': 0.946, 'capsules': 0.957, 'cashew': 0.867, 'chewinggum': 0.797, 'fryum': 0.931, 'macaroni1': 0.942, 'macaroni2': 0.968, 'pcb1': 0.943, 'pcb2': 0.916, 'pcb3': 0.935, 'pcb4': 0.909, 'pipe_fryum': 0.975, 'mean': 0.924}
+epoch [41/200], loss_total:0.1460, loss_rd:0.1447, loss_svdd:0.0013
+epoch [42/200], loss_total:0.1443, loss_rd:0.1433, loss_svdd:0.0009
+epoch [43/200], loss_total:0.1442, loss_rd:0.1433, loss_svdd:0.0009
+epoch [44/200], loss_total:0.1430, loss_rd:0.1421, loss_svdd:0.0008
+epoch [45/200], loss_total:0.1424, loss_rd:0.1416, loss_svdd:0.0008
+Sample Auroc{'candle': 0.958, 'capsules': 0.93, 'cashew': 0.959, 'chewinggum': 0.957, 'fryum': 0.96, 'macaroni1': 0.977, 'macaroni2': 0.906, 'pcb1': 0.963, 'pcb2': 0.962, 'pcb3': 0.955, 'pcb4': 0.998, 'pipe_fryum': 0.996, 'mean': 0.96}
+Pixel Auroc:{'candle': 0.99, 'capsules': 0.992, 'cashew': 0.91, 'chewinggum': 0.971, 'fryum': 0.972, 'macaroni1': 0.994, 'macaroni2': 0.993, 'pcb1': 0.996, 'pcb2': 0.986, 'pcb3': 0.99, 'pcb4': 0.986, 'pipe_fryum': 0.991, 'mean': 0.981}
+Pixel Aupro{'candle': 0.947, 'capsules': 0.958, 'cashew': 0.866, 'chewinggum': 0.805, 'fryum': 0.932, 'macaroni1': 0.944, 'macaroni2': 0.971, 'pcb1': 0.942, 'pcb2': 0.919, 'pcb3': 0.939, 'pcb4': 0.909, 'pipe_fryum': 0.975, 'mean': 0.926}
+epoch [46/200], loss_total:0.1422, loss_rd:0.1413, loss_svdd:0.0008
+epoch [47/200], loss_total:0.1412, loss_rd:0.1404, loss_svdd:0.0008
+epoch [48/200], loss_total:0.1410, loss_rd:0.1402, loss_svdd:0.0008
+epoch [49/200], loss_total:0.1402, loss_rd:0.1394, loss_svdd:0.0008
+epoch [50/200], loss_total:0.1396, loss_rd:0.1388, loss_svdd:0.0008
+Sample Auroc{'candle': 0.96, 'capsules': 0.924, 'cashew': 0.958, 'chewinggum': 0.956, 'fryum': 0.96, 'macaroni1': 0.979, 'macaroni2': 0.909, 'pcb1': 0.965, 'pcb2': 0.96, 'pcb3': 0.956, 'pcb4': 0.998, 'pipe_fryum': 0.998, 'mean': 0.96}
+Pixel Auroc:{'candle': 0.99, 'capsules': 0.992, 'cashew': 0.912, 'chewinggum': 0.971, 'fryum': 0.972, 'macaroni1': 0.995, 'macaroni2': 0.993, 'pcb1': 0.995, 'pcb2': 0.986, 'pcb3': 0.989, 'pcb4': 0.987, 'pipe_fryum': 0.992, 'mean': 0.981}
+Pixel Aupro{'candle': 0.948, 'capsules': 0.956, 'cashew': 0.866, 'chewinggum': 0.803, 'fryum': 0.933, 'macaroni1': 0.947, 'macaroni2': 0.972, 'pcb1': 0.943, 'pcb2': 0.918, 'pcb3': 0.939, 'pcb4': 0.911, 'pipe_fryum': 0.975, 'mean': 0.926}
+epoch [51/200], loss_total:0.1391, loss_rd:0.1383, loss_svdd:0.0008
+epoch [52/200], loss_total:0.1386, loss_rd:0.1378, loss_svdd:0.0008
+epoch [53/200], loss_total:0.1383, loss_rd:0.1375, loss_svdd:0.0008
+epoch [54/200], loss_total:0.1374, loss_rd:0.1366, loss_svdd:0.0008
+epoch [55/200], loss_total:0.1366, loss_rd:0.1358, loss_svdd:0.0008
+Sample Auroc{'candle': 0.962, 'capsules': 0.912, 'cashew': 0.959, 'chewinggum': 0.961, 'fryum': 0.958, 'macaroni1': 0.981, 'macaroni2': 0.914, 'pcb1': 0.966, 'pcb2': 0.963, 'pcb3': 0.958, 'pcb4': 0.998, 'pipe_fryum': 0.996, 'mean': 0.961}
+Pixel Auroc:{'candle': 0.99, 'capsules': 0.992, 'cashew': 0.923, 'chewinggum': 0.972, 'fryum': 0.973, 'macaroni1': 0.995, 'macaroni2': 0.993, 'pcb1': 0.995, 'pcb2': 0.986, 'pcb3': 0.989, 'pcb4': 0.986, 'pipe_fryum': 0.992, 'mean': 0.982}
+Pixel Aupro{'candle': 0.948, 'capsules': 0.954, 'cashew': 0.882, 'chewinggum': 0.806, 'fryum': 0.934, 'macaroni1': 0.95, 'macaroni2': 0.973, 'pcb1': 0.941, 'pcb2': 0.919, 'pcb3': 0.94, 'pcb4': 0.912, 'pipe_fryum': 0.976, 'mean': 0.928}
+epoch [56/200], loss_total:0.1362, loss_rd:0.1354, loss_svdd:0.0008
+epoch [57/200], loss_total:0.1357, loss_rd:0.1349, loss_svdd:0.0008
+epoch [58/200], loss_total:0.1348, loss_rd:0.1340, loss_svdd:0.0008
+epoch [59/200], loss_total:0.1344, loss_rd:0.1336, loss_svdd:0.0008
+epoch [60/200], loss_total:0.1339, loss_rd:0.1331, loss_svdd:0.0008
+Sample Auroc{'candle': 0.963, 'capsules': 0.92, 'cashew': 0.952, 'chewinggum': 0.962, 'fryum': 0.962, 'macaroni1': 0.98, 'macaroni2': 0.913, 'pcb1': 0.968, 'pcb2': 0.966, 'pcb3': 0.956, 'pcb4': 0.998, 'pipe_fryum': 0.998, 'mean': 0.961}
+Pixel Auroc:{'candle': 0.99, 'capsules': 0.992, 'cashew': 0.915, 'chewinggum': 0.972, 'fryum': 0.972, 'macaroni1': 0.995, 'macaroni2': 0.993, 'pcb1': 0.996, 'pcb2': 0.986, 'pcb3': 0.989, 'pcb4': 0.986, 'pipe_fryum': 0.992, 'mean': 0.982}
+Pixel Aupro{'candle': 0.947, 'capsules': 0.954, 'cashew': 0.866, 'chewinggum': 0.803, 'fryum': 0.935, 'macaroni1': 0.953, 'macaroni2': 0.973, 'pcb1': 0.947, 'pcb2': 0.922, 'pcb3': 0.94, 'pcb4': 0.91, 'pipe_fryum': 0.975, 'mean': 0.927}
+epoch [61/200], loss_total:0.1308, loss_rd:0.1302, loss_svdd:0.0007
+epoch [62/200], loss_total:0.1304, loss_rd:0.1298, loss_svdd:0.0006
+epoch [63/200], loss_total:0.1299, loss_rd:0.1293, loss_svdd:0.0006
+epoch [64/200], loss_total:0.1297, loss_rd:0.1291, loss_svdd:0.0006
+epoch [65/200], loss_total:0.1294, loss_rd:0.1288, loss_svdd:0.0006
+Sample Auroc{'candle': 0.963, 'capsules': 0.921, 'cashew': 0.954, 'chewinggum': 0.966, 'fryum': 0.961, 'macaroni1': 0.98, 'macaroni2': 0.921, 'pcb1': 0.971, 'pcb2': 0.967, 'pcb3': 0.956, 'pcb4': 0.998, 'pipe_fryum': 0.997, 'mean': 0.963}
+Pixel Auroc:{'candle': 0.99, 'capsules': 0.993, 'cashew': 0.918, 'chewinggum': 0.972, 'fryum': 0.973, 'macaroni1': 0.995, 'macaroni2': 0.994, 'pcb1': 0.996, 'pcb2': 0.987, 'pcb3': 0.989, 'pcb4': 0.986, 'pipe_fryum': 0.992, 'mean': 0.982}
+Pixel Aupro{'candle': 0.949, 'capsules': 0.956, 'cashew': 0.868, 'chewinggum': 0.805, 'fryum': 0.934, 'macaroni1': 0.952, 'macaroni2': 0.975, 'pcb1': 0.947, 'pcb2': 0.924, 'pcb3': 0.94, 'pcb4': 0.911, 'pipe_fryum': 0.976, 'mean': 0.928}
+epoch [66/200], loss_total:0.1287, loss_rd:0.1281, loss_svdd:0.0006
+epoch [67/200], loss_total:0.1286, loss_rd:0.1280, loss_svdd:0.0006
+epoch [68/200], loss_total:0.1279, loss_rd:0.1273, loss_svdd:0.0006
+epoch [69/200], loss_total:0.1276, loss_rd:0.1270, loss_svdd:0.0006
+epoch [70/200], loss_total:0.1272, loss_rd:0.1267, loss_svdd:0.0006
+Sample Auroc{'candle': 0.963, 'capsules': 0.908, 'cashew': 0.955, 'chewinggum': 0.966, 'fryum': 0.959, 'macaroni1': 0.981, 'macaroni2': 0.916, 'pcb1': 0.971, 'pcb2': 0.968, 'pcb3': 0.957, 'pcb4': 0.998, 'pipe_fryum': 0.997, 'mean': 0.962}
+Pixel Auroc:{'candle': 0.99, 'capsules': 0.993, 'cashew': 0.919, 'chewinggum': 0.973, 'fryum': 0.973, 'macaroni1': 0.996, 'macaroni2': 0.994, 'pcb1': 0.996, 'pcb2': 0.987, 'pcb3': 0.989, 'pcb4': 0.986, 'pipe_fryum': 0.992, 'mean': 0.982}
+Pixel Aupro{'candle': 0.949, 'capsules': 0.955, 'cashew': 0.871, 'chewinggum': 0.806, 'fryum': 0.934, 'macaroni1': 0.953, 'macaroni2': 0.975, 'pcb1': 0.948, 'pcb2': 0.926, 'pcb3': 0.941, 'pcb4': 0.912, 'pipe_fryum': 0.976, 'mean': 0.929}
+epoch [71/200], loss_total:0.1269, loss_rd:0.1263, loss_svdd:0.0006
+epoch [72/200], loss_total:0.1263, loss_rd:0.1257, loss_svdd:0.0006
+epoch [73/200], loss_total:0.1261, loss_rd:0.1255, loss_svdd:0.0006
+epoch [74/200], loss_total:0.1255, loss_rd:0.1249, loss_svdd:0.0006
+epoch [75/200], loss_total:0.1253, loss_rd:0.1248, loss_svdd:0.0006
+Sample Auroc{'candle': 0.965, 'capsules': 0.914, 'cashew': 0.959, 'chewinggum': 0.965, 'fryum': 0.96, 'macaroni1': 0.982, 'macaroni2': 0.918, 'pcb1': 0.974, 'pcb2': 0.972, 'pcb3': 0.959, 'pcb4': 0.998, 'pipe_fryum': 0.997, 'mean': 0.964}
+Pixel Auroc:{'candle': 0.99, 'capsules': 0.992, 'cashew': 0.922, 'chewinggum': 0.974, 'fryum': 0.973, 'macaroni1': 0.996, 'macaroni2': 0.994, 'pcb1': 0.996, 'pcb2': 0.987, 'pcb3': 0.989, 'pcb4': 0.986, 'pipe_fryum': 0.992, 'mean': 0.983}
+Pixel Aupro{'candle': 0.948, 'capsules': 0.953, 'cashew': 0.87, 'chewinggum': 0.807, 'fryum': 0.935, 'macaroni1': 0.955, 'macaroni2': 0.975, 'pcb1': 0.949, 'pcb2': 0.925, 'pcb3': 0.941, 'pcb4': 0.91, 'pipe_fryum': 0.976, 'mean': 0.929}
+epoch [76/200], loss_total:0.1251, loss_rd:0.1245, loss_svdd:0.0006
+epoch [77/200], loss_total:0.1246, loss_rd:0.1240, loss_svdd:0.0006
+epoch [78/200], loss_total:0.1239, loss_rd:0.1233, loss_svdd:0.0006
+epoch [79/200], loss_total:0.1237, loss_rd:0.1232, loss_svdd:0.0006
+epoch [80/200], loss_total:0.1233, loss_rd:0.1228, loss_svdd:0.0006
+Sample Auroc{'candle': 0.966, 'capsules': 0.908, 'cashew': 0.958, 'chewinggum': 0.967, 'fryum': 0.961, 'macaroni1': 0.982, 'macaroni2': 0.919, 'pcb1': 0.974, 'pcb2': 0.973, 'pcb3': 0.959, 'pcb4': 0.998, 'pipe_fryum': 0.997, 'mean': 0.963}
+Pixel Auroc:{'candle': 0.991, 'capsules': 0.993, 'cashew': 0.921, 'chewinggum': 0.974, 'fryum': 0.974, 'macaroni1': 0.996, 'macaroni2': 0.994, 'pcb1': 0.996, 'pcb2': 0.987, 'pcb3': 0.989, 'pcb4': 0.986, 'pipe_fryum': 0.992, 'mean': 0.983}
+Pixel Aupro{'candle': 0.95, 'capsules': 0.951, 'cashew': 0.87, 'chewinggum': 0.808, 'fryum': 0.935, 'macaroni1': 0.955, 'macaroni2': 0.976, 'pcb1': 0.949, 'pcb2': 0.928, 'pcb3': 0.941, 'pcb4': 0.912, 'pipe_fryum': 0.976, 'mean': 0.929}
+epoch [81/200], loss_total:0.1219, loss_rd:0.1214, loss_svdd:0.0005
+epoch [82/200], loss_total:0.1216, loss_rd:0.1211, loss_svdd:0.0005
+epoch [83/200], loss_total:0.1214, loss_rd:0.1210, loss_svdd:0.0005
+epoch [84/200], loss_total:0.1212, loss_rd:0.1208, loss_svdd:0.0004
+epoch [85/200], loss_total:0.1209, loss_rd:0.1204, loss_svdd:0.0004
+Sample Auroc{'candle': 0.964, 'capsules': 0.905, 'cashew': 0.957, 'chewinggum': 0.967, 'fryum': 0.959, 'macaroni1': 0.981, 'macaroni2': 0.917, 'pcb1': 0.975, 'pcb2': 0.974, 'pcb3': 0.959, 'pcb4': 0.998, 'pipe_fryum': 0.997, 'mean': 0.963}
+Pixel Auroc:{'candle': 0.991, 'capsules': 0.992, 'cashew': 0.924, 'chewinggum': 0.974, 'fryum': 0.974, 'macaroni1': 0.996, 'macaroni2': 0.994, 'pcb1': 0.996, 'pcb2': 0.988, 'pcb3': 0.989, 'pcb4': 0.987, 'pipe_fryum': 0.992, 'mean': 0.983}
+Pixel Aupro{'candle': 0.95, 'capsules': 0.952, 'cashew': 0.87, 'chewinggum': 0.807, 'fryum': 0.935, 'macaroni1': 0.956, 'macaroni2': 0.975, 'pcb1': 0.949, 'pcb2': 0.93, 'pcb3': 0.941, 'pcb4': 0.912, 'pipe_fryum': 0.976, 'mean': 0.929}
+epoch [86/200], loss_total:0.1207, loss_rd:0.1203, loss_svdd:0.0004
+epoch [87/200], loss_total:0.1207, loss_rd:0.1202, loss_svdd:0.0004
+epoch [88/200], loss_total:0.1204, loss_rd:0.1199, loss_svdd:0.0004
+epoch [89/200], loss_total:0.1202, loss_rd:0.1198, loss_svdd:0.0004
+epoch [90/200], loss_total:0.1197, loss_rd:0.1193, loss_svdd:0.0004
+Sample Auroc{'candle': 0.966, 'capsules': 0.91, 'cashew': 0.959, 'chewinggum': 0.968, 'fryum': 0.961, 'macaroni1': 0.982, 'macaroni2': 0.916, 'pcb1': 0.975, 'pcb2': 0.976, 'pcb3': 0.961, 'pcb4': 0.998, 'pipe_fryum': 0.997, 'mean': 0.964}
+Pixel Auroc:{'candle': 0.991, 'capsules': 0.993, 'cashew': 0.925, 'chewinggum': 0.974, 'fryum': 0.974, 'macaroni1': 0.996, 'macaroni2': 0.994, 'pcb1': 0.996, 'pcb2': 0.988, 'pcb3': 0.989, 'pcb4': 0.987, 'pipe_fryum': 0.992, 'mean': 0.983}
+Pixel Aupro{'candle': 0.95, 'capsules': 0.954, 'cashew': 0.87, 'chewinggum': 0.811, 'fryum': 0.935, 'macaroni1': 0.957, 'macaroni2': 0.975, 'pcb1': 0.949, 'pcb2': 0.931, 'pcb3': 0.942, 'pcb4': 0.912, 'pipe_fryum': 0.976, 'mean': 0.93}
+epoch [91/200], loss_total:0.1194, loss_rd:0.1190, loss_svdd:0.0004
+epoch [92/200], loss_total:0.1194, loss_rd:0.1190, loss_svdd:0.0004
+epoch [93/200], loss_total:0.1193, loss_rd:0.1188, loss_svdd:0.0004
+epoch [94/200], loss_total:0.1187, loss_rd:0.1183, loss_svdd:0.0004
+epoch [95/200], loss_total:0.1184, loss_rd:0.1180, loss_svdd:0.0004
+Sample Auroc{'candle': 0.966, 'capsules': 0.903, 'cashew': 0.962, 'chewinggum': 0.971, 'fryum': 0.963, 'macaroni1': 0.982, 'macaroni2': 0.916, 'pcb1': 0.975, 'pcb2': 0.976, 'pcb3': 0.961, 'pcb4': 0.998, 'pipe_fryum': 0.997, 'mean': 0.964}
+Pixel Auroc:{'candle': 0.991, 'capsules': 0.993, 'cashew': 0.928, 'chewinggum': 0.975, 'fryum': 0.974, 'macaroni1': 0.996, 'macaroni2': 0.994, 'pcb1': 0.996, 'pcb2': 0.988, 'pcb3': 0.989, 'pcb4': 0.986, 'pipe_fryum': 0.992, 'mean': 0.983}
+Pixel Aupro{'candle': 0.951, 'capsules': 0.951, 'cashew': 0.875, 'chewinggum': 0.811, 'fryum': 0.935, 'macaroni1': 0.958, 'macaroni2': 0.976, 'pcb1': 0.95, 'pcb2': 0.931, 'pcb3': 0.942, 'pcb4': 0.912, 'pipe_fryum': 0.976, 'mean': 0.931}
+epoch [96/200], loss_total:0.1185, loss_rd:0.1181, loss_svdd:0.0004
+epoch [97/200], loss_total:0.1186, loss_rd:0.1182, loss_svdd:0.0004
+epoch [98/200], loss_total:0.1181, loss_rd:0.1177, loss_svdd:0.0004
+epoch [99/200], loss_total:0.1178, loss_rd:0.1174, loss_svdd:0.0004
+epoch [100/200], loss_total:0.1176, loss_rd:0.1172, loss_svdd:0.0004
+Sample Auroc{'candle': 0.967, 'capsules': 0.907, 'cashew': 0.964, 'chewinggum': 0.973, 'fryum': 0.963, 'macaroni1': 0.982, 'macaroni2': 0.917, 'pcb1': 0.975, 'pcb2': 0.975, 'pcb3': 0.96, 'pcb4': 0.998, 'pipe_fryum': 0.997, 'mean': 0.965}
+Pixel Auroc:{'candle': 0.991, 'capsules': 0.992, 'cashew': 0.928, 'chewinggum': 0.975, 'fryum': 0.974, 'macaroni1': 0.996, 'macaroni2': 0.994, 'pcb1': 0.997, 'pcb2': 0.988, 'pcb3': 0.989, 'pcb4': 0.986, 'pipe_fryum': 0.992, 'mean': 0.984}
+Pixel Aupro{'candle': 0.951, 'capsules': 0.951, 'cashew': 0.872, 'chewinggum': 0.812, 'fryum': 0.935, 'macaroni1': 0.958, 'macaroni2': 0.976, 'pcb1': 0.951, 'pcb2': 0.932, 'pcb3': 0.942, 'pcb4': 0.912, 'pipe_fryum': 0.976, 'mean': 0.931}
+epoch [101/200], loss_total:0.1168, loss_rd:0.1164, loss_svdd:0.0004
+epoch [102/200], loss_total:0.1168, loss_rd:0.1164, loss_svdd:0.0004
+epoch [103/200], loss_total:0.1167, loss_rd:0.1163, loss_svdd:0.0004
+epoch [104/200], loss_total:0.1164, loss_rd:0.1160, loss_svdd:0.0004
+epoch [105/200], loss_total:0.1163, loss_rd:0.1159, loss_svdd:0.0004
+Sample Auroc{'candle': 0.966, 'capsules': 0.901, 'cashew': 0.963, 'chewinggum': 0.972, 'fryum': 0.963, 'macaroni1': 0.982, 'macaroni2': 0.917, 'pcb1': 0.976, 'pcb2': 0.975, 'pcb3': 0.961, 'pcb4': 0.999, 'pipe_fryum': 0.997, 'mean': 0.964}
+Pixel Auroc:{'candle': 0.991, 'capsules': 0.992, 'cashew': 0.929, 'chewinggum': 0.975, 'fryum': 0.974, 'macaroni1': 0.996, 'macaroni2': 0.994, 'pcb1': 0.997, 'pcb2': 0.988, 'pcb3': 0.989, 'pcb4': 0.986, 'pipe_fryum': 0.992, 'mean': 0.984}
+Pixel Aupro{'candle': 0.951, 'capsules': 0.951, 'cashew': 0.875, 'chewinggum': 0.813, 'fryum': 0.935, 'macaroni1': 0.958, 'macaroni2': 0.976, 'pcb1': 0.951, 'pcb2': 0.932, 'pcb3': 0.942, 'pcb4': 0.912, 'pipe_fryum': 0.976, 'mean': 0.931}
+epoch [106/200], loss_total:0.1164, loss_rd:0.1160, loss_svdd:0.0004
+epoch [107/200], loss_total:0.1163, loss_rd:0.1159, loss_svdd:0.0003
+epoch [108/200], loss_total:0.1162, loss_rd:0.1159, loss_svdd:0.0003
+epoch [109/200], loss_total:0.1159, loss_rd:0.1155, loss_svdd:0.0003
+epoch [110/200], loss_total:0.1158, loss_rd:0.1155, loss_svdd:0.0003
+Sample Auroc{'candle': 0.968, 'capsules': 0.906, 'cashew': 0.965, 'chewinggum': 0.972, 'fryum': 0.964, 'macaroni1': 0.982, 'macaroni2': 0.915, 'pcb1': 0.976, 'pcb2': 0.976, 'pcb3': 0.961, 'pcb4': 0.998, 'pipe_fryum': 0.997, 'mean': 0.965}
+Pixel Auroc:{'candle': 0.991, 'capsules': 0.993, 'cashew': 0.93, 'chewinggum': 0.975, 'fryum': 0.974, 'macaroni1': 0.996, 'macaroni2': 0.994, 'pcb1': 0.997, 'pcb2': 0.988, 'pcb3': 0.989, 'pcb4': 0.987, 'pipe_fryum': 0.992, 'mean': 0.984}
+Pixel Aupro{'candle': 0.951, 'capsules': 0.95, 'cashew': 0.875, 'chewinggum': 0.813, 'fryum': 0.935, 'macaroni1': 0.958, 'macaroni2': 0.976, 'pcb1': 0.952, 'pcb2': 0.933, 'pcb3': 0.942, 'pcb4': 0.912, 'pipe_fryum': 0.976, 'mean': 0.931}
+epoch [111/200], loss_total:0.1157, loss_rd:0.1153, loss_svdd:0.0003
+epoch [112/200], loss_total:0.1158, loss_rd:0.1155, loss_svdd:0.0003
+epoch [113/200], loss_total:0.1157, loss_rd:0.1153, loss_svdd:0.0003
+epoch [114/200], loss_total:0.1154, loss_rd:0.1151, loss_svdd:0.0003
+epoch [115/200], loss_total:0.1154, loss_rd:0.1151, loss_svdd:0.0003
+Sample Auroc{'candle': 0.967, 'capsules': 0.904, 'cashew': 0.965, 'chewinggum': 0.973, 'fryum': 0.965, 'macaroni1': 0.983, 'macaroni2': 0.915, 'pcb1': 0.976, 'pcb2': 0.976, 'pcb3': 0.961, 'pcb4': 0.998, 'pipe_fryum': 0.997, 'mean': 0.965}
+Pixel Auroc:{'candle': 0.991, 'capsules': 0.992, 'cashew': 0.929, 'chewinggum': 0.975, 'fryum': 0.974, 'macaroni1': 0.996, 'macaroni2': 0.994, 'pcb1': 0.997, 'pcb2': 0.988, 'pcb3': 0.989, 'pcb4': 0.986, 'pipe_fryum': 0.992, 'mean': 0.984}
+Pixel Aupro{'candle': 0.951, 'capsules': 0.95, 'cashew': 0.874, 'chewinggum': 0.812, 'fryum': 0.935, 'macaroni1': 0.958, 'macaroni2': 0.975, 'pcb1': 0.952, 'pcb2': 0.933, 'pcb3': 0.942, 'pcb4': 0.911, 'pipe_fryum': 0.976, 'mean': 0.931}
+epoch [116/200], loss_total:0.1154, loss_rd:0.1151, loss_svdd:0.0003
+epoch [117/200], loss_total:0.1152, loss_rd:0.1149, loss_svdd:0.0003
+epoch [118/200], loss_total:0.1152, loss_rd:0.1148, loss_svdd:0.0003
+epoch [119/200], loss_total:0.1150, loss_rd:0.1147, loss_svdd:0.0003
+epoch [120/200], loss_total:0.1148, loss_rd:0.1145, loss_svdd:0.0003
+Sample Auroc{'candle': 0.968, 'capsules': 0.905, 'cashew': 0.966, 'chewinggum': 0.974, 'fryum': 0.965, 'macaroni1': 0.982, 'macaroni2': 0.915, 'pcb1': 0.976, 'pcb2': 0.976, 'pcb3': 0.96, 'pcb4': 0.998, 'pipe_fryum': 0.997, 'mean': 0.965}
+Pixel Auroc:{'candle': 0.991, 'capsules': 0.992, 'cashew': 0.929, 'chewinggum': 0.975, 'fryum': 0.974, 'macaroni1': 0.996, 'macaroni2': 0.994, 'pcb1': 0.997, 'pcb2': 0.988, 'pcb3': 0.989, 'pcb4': 0.986, 'pipe_fryum': 0.992, 'mean': 0.984}
+Pixel Aupro{'candle': 0.951, 'capsules': 0.95, 'cashew': 0.874, 'chewinggum': 0.813, 'fryum': 0.935, 'macaroni1': 0.959, 'macaroni2': 0.975, 'pcb1': 0.952, 'pcb2': 0.933, 'pcb3': 0.942, 'pcb4': 0.912, 'pipe_fryum': 0.976, 'mean': 0.931}
+epoch [121/200], loss_total:0.1143, loss_rd:0.1140, loss_svdd:0.0003
+epoch [122/200], loss_total:0.1145, loss_rd:0.1142, loss_svdd:0.0003
+epoch [123/200], loss_total:0.1143, loss_rd:0.1140, loss_svdd:0.0003
+epoch [124/200], loss_total:0.1143, loss_rd:0.1140, loss_svdd:0.0003
+epoch [125/200], loss_total:0.1143, loss_rd:0.1140, loss_svdd:0.0003
+Sample Auroc{'candle': 0.967, 'capsules': 0.904, 'cashew': 0.966, 'chewinggum': 0.974, 'fryum': 0.965, 'macaroni1': 0.983, 'macaroni2': 0.918, 'pcb1': 0.976, 'pcb2': 0.977, 'pcb3': 0.96, 'pcb4': 0.998, 'pipe_fryum': 0.997, 'mean': 0.965}
+Pixel Auroc:{'candle': 0.991, 'capsules': 0.992, 'cashew': 0.93, 'chewinggum': 0.975, 'fryum': 0.974, 'macaroni1': 0.996, 'macaroni2': 0.994, 'pcb1': 0.997, 'pcb2': 0.988, 'pcb3': 0.989, 'pcb4': 0.986, 'pipe_fryum': 0.992, 'mean': 0.984}
+Pixel Aupro{'candle': 0.952, 'capsules': 0.951, 'cashew': 0.874, 'chewinggum': 0.813, 'fryum': 0.935, 'macaroni1': 0.96, 'macaroni2': 0.976, 'pcb1': 0.952, 'pcb2': 0.933, 'pcb3': 0.942, 'pcb4': 0.913, 'pipe_fryum': 0.976, 'mean': 0.931}
+epoch [126/200], loss_total:0.1142, loss_rd:0.1139, loss_svdd:0.0003
+epoch [127/200], loss_total:0.1142, loss_rd:0.1139, loss_svdd:0.0003
+epoch [128/200], loss_total:0.1142, loss_rd:0.1139, loss_svdd:0.0003
+epoch [129/200], loss_total:0.1142, loss_rd:0.1140, loss_svdd:0.0003
+epoch [130/200], loss_total:0.1139, loss_rd:0.1136, loss_svdd:0.0003
+Sample Auroc{'candle': 0.967, 'capsules': 0.904, 'cashew': 0.966, 'chewinggum': 0.974, 'fryum': 0.966, 'macaroni1': 0.983, 'macaroni2': 0.915, 'pcb1': 0.976, 'pcb2': 0.976, 'pcb3': 0.962, 'pcb4': 0.998, 'pipe_fryum': 0.997, 'mean': 0.965}
+Pixel Auroc:{'candle': 0.991, 'capsules': 0.993, 'cashew': 0.93, 'chewinggum': 0.975, 'fryum': 0.974, 'macaroni1': 0.996, 'macaroni2': 0.994, 'pcb1': 0.997, 'pcb2': 0.988, 'pcb3': 0.989, 'pcb4': 0.986, 'pipe_fryum': 0.992, 'mean': 0.984}
+Pixel Aupro{'candle': 0.951, 'capsules': 0.95, 'cashew': 0.875, 'chewinggum': 0.814, 'fryum': 0.935, 'macaroni1': 0.96, 'macaroni2': 0.976, 'pcb1': 0.952, 'pcb2': 0.933, 'pcb3': 0.942, 'pcb4': 0.912, 'pipe_fryum': 0.976, 'mean': 0.931}
+epoch [131/200], loss_total:0.1140, loss_rd:0.1137, loss_svdd:0.0003
+epoch [132/200], loss_total:0.1141, loss_rd:0.1138, loss_svdd:0.0003
+epoch [133/200], loss_total:0.1139, loss_rd:0.1137, loss_svdd:0.0003
+epoch [134/200], loss_total:0.1138, loss_rd:0.1135, loss_svdd:0.0003
+epoch [135/200], loss_total:0.1136, loss_rd:0.1133, loss_svdd:0.0003
+Sample Auroc{'candle': 0.968, 'capsules': 0.906, 'cashew': 0.966, 'chewinggum': 0.975, 'fryum': 0.966, 'macaroni1': 0.983, 'macaroni2': 0.916, 'pcb1': 0.976, 'pcb2': 0.976, 'pcb3': 0.961, 'pcb4': 0.998, 'pipe_fryum': 0.997, 'mean': 0.966}
+Pixel Auroc:{'candle': 0.991, 'capsules': 0.992, 'cashew': 0.93, 'chewinggum': 0.975, 'fryum': 0.974, 'macaroni1': 0.996, 'macaroni2': 0.994, 'pcb1': 0.997, 'pcb2': 0.988, 'pcb3': 0.989, 'pcb4': 0.986, 'pipe_fryum': 0.992, 'mean': 0.984}
+Pixel Aupro{'candle': 0.951, 'capsules': 0.95, 'cashew': 0.875, 'chewinggum': 0.815, 'fryum': 0.935, 'macaroni1': 0.96, 'macaroni2': 0.975, 'pcb1': 0.952, 'pcb2': 0.934, 'pcb3': 0.942, 'pcb4': 0.912, 'pipe_fryum': 0.976, 'mean': 0.931}
+epoch [136/200], loss_total:0.1137, loss_rd:0.1134, loss_svdd:0.0003
+epoch [137/200], loss_total:0.1135, loss_rd:0.1132, loss_svdd:0.0003
+epoch [138/200], loss_total:0.1137, loss_rd:0.1134, loss_svdd:0.0003
+epoch [139/200], loss_total:0.1136, loss_rd:0.1133, loss_svdd:0.0003
+epoch [140/200], loss_total:0.1135, loss_rd:0.1132, loss_svdd:0.0003
+Sample Auroc{'candle': 0.968, 'capsules': 0.903, 'cashew': 0.966, 'chewinggum': 0.974, 'fryum': 0.966, 'macaroni1': 0.982, 'macaroni2': 0.917, 'pcb1': 0.976, 'pcb2': 0.977, 'pcb3': 0.961, 'pcb4': 0.998, 'pipe_fryum': 0.997, 'mean': 0.965}
+Pixel Auroc:{'candle': 0.991, 'capsules': 0.992, 'cashew': 0.93, 'chewinggum': 0.975, 'fryum': 0.974, 'macaroni1': 0.996, 'macaroni2': 0.994, 'pcb1': 0.997, 'pcb2': 0.988, 'pcb3': 0.989, 'pcb4': 0.986, 'pipe_fryum': 0.992, 'mean': 0.984}
+Pixel Aupro{'candle': 0.952, 'capsules': 0.95, 'cashew': 0.874, 'chewinggum': 0.814, 'fryum': 0.935, 'macaroni1': 0.96, 'macaroni2': 0.976, 'pcb1': 0.953, 'pcb2': 0.933, 'pcb3': 0.942, 'pcb4': 0.912, 'pipe_fryum': 0.976, 'mean': 0.931}
+epoch [141/200], loss_total:0.1134, loss_rd:0.1131, loss_svdd:0.0003
+epoch [142/200], loss_total:0.1135, loss_rd:0.1132, loss_svdd:0.0003
+epoch [143/200], loss_total:0.1131, loss_rd:0.1128, loss_svdd:0.0003
+epoch [144/200], loss_total:0.1132, loss_rd:0.1130, loss_svdd:0.0003
+epoch [145/200], loss_total:0.1133, loss_rd:0.1130, loss_svdd:0.0003
+Sample Auroc{'candle': 0.968, 'capsules': 0.904, 'cashew': 0.967, 'chewinggum': 0.976, 'fryum': 0.966, 'macaroni1': 0.983, 'macaroni2': 0.917, 'pcb1': 0.976, 'pcb2': 0.976, 'pcb3': 0.962, 'pcb4': 0.998, 'pipe_fryum': 0.997, 'mean': 0.966}
+Pixel Auroc:{'candle': 0.991, 'capsules': 0.992, 'cashew': 0.931, 'chewinggum': 0.975, 'fryum': 0.975, 'macaroni1': 0.996, 'macaroni2': 0.994, 'pcb1': 0.997, 'pcb2': 0.988, 'pcb3': 0.989, 'pcb4': 0.986, 'pipe_fryum': 0.992, 'mean': 0.984}
+Pixel Aupro{'candle': 0.952, 'capsules': 0.949, 'cashew': 0.874, 'chewinggum': 0.814, 'fryum': 0.935, 'macaroni1': 0.96, 'macaroni2': 0.976, 'pcb1': 0.953, 'pcb2': 0.933, 'pcb3': 0.942, 'pcb4': 0.912, 'pipe_fryum': 0.976, 'mean': 0.931}
+epoch [146/200], loss_total:0.1132, loss_rd:0.1130, loss_svdd:0.0003
+epoch [147/200], loss_total:0.1132, loss_rd:0.1130, loss_svdd:0.0003
+epoch [148/200], loss_total:0.1131, loss_rd:0.1129, loss_svdd:0.0003
+epoch [149/200], loss_total:0.1131, loss_rd:0.1129, loss_svdd:0.0003
+epoch [150/200], loss_total:0.1132, loss_rd:0.1129, loss_svdd:0.0002
+Sample Auroc{'candle': 0.968, 'capsules': 0.904, 'cashew': 0.966, 'chewinggum': 0.977, 'fryum': 0.966, 'macaroni1': 0.983, 'macaroni2': 0.916, 'pcb1': 0.976, 'pcb2': 0.977, 'pcb3': 0.962, 'pcb4': 0.998, 'pipe_fryum': 0.997, 'mean': 0.966}
+Pixel Auroc:{'candle': 0.991, 'capsules': 0.992, 'cashew': 0.931, 'chewinggum': 0.976, 'fryum': 0.975, 'macaroni1': 0.996, 'macaroni2': 0.994, 'pcb1': 0.997, 'pcb2': 0.988, 'pcb3': 0.989, 'pcb4': 0.986, 'pipe_fryum': 0.992, 'mean': 0.984}
+Pixel Aupro{'candle': 0.951, 'capsules': 0.949, 'cashew': 0.876, 'chewinggum': 0.815, 'fryum': 0.935, 'macaroni1': 0.96, 'macaroni2': 0.976, 'pcb1': 0.953, 'pcb2': 0.934, 'pcb3': 0.942, 'pcb4': 0.912, 'pipe_fryum': 0.976, 'mean': 0.932}
+epoch [151/200], loss_total:0.1130, loss_rd:0.1127, loss_svdd:0.0002
+epoch [152/200], loss_total:0.1131, loss_rd:0.1129, loss_svdd:0.0002
+epoch [153/200], loss_total:0.1129, loss_rd:0.1127, loss_svdd:0.0002
+epoch [154/200], loss_total:0.1130, loss_rd:0.1128, loss_svdd:0.0002
+epoch [155/200], loss_total:0.1129, loss_rd:0.1127, loss_svdd:0.0002
+Sample Auroc{'candle': 0.968, 'capsules': 0.903, 'cashew': 0.967, 'chewinggum': 0.976, 'fryum': 0.966, 'macaroni1': 0.983, 'macaroni2': 0.917, 'pcb1': 0.976, 'pcb2': 0.976, 'pcb3': 0.963, 'pcb4': 0.998, 'pipe_fryum': 0.997, 'mean': 0.966}
+Pixel Auroc:{'candle': 0.991, 'capsules': 0.992, 'cashew': 0.931, 'chewinggum': 0.976, 'fryum': 0.975, 'macaroni1': 0.996, 'macaroni2': 0.994, 'pcb1': 0.997, 'pcb2': 0.988, 'pcb3': 0.989, 'pcb4': 0.986, 'pipe_fryum': 0.992, 'mean': 0.984}
+Pixel Aupro{'candle': 0.951, 'capsules': 0.95, 'cashew': 0.874, 'chewinggum': 0.815, 'fryum': 0.935, 'macaroni1': 0.96, 'macaroni2': 0.976, 'pcb1': 0.953, 'pcb2': 0.934, 'pcb3': 0.942, 'pcb4': 0.912, 'pipe_fryum': 0.976, 'mean': 0.932}
+epoch [156/200], loss_total:0.1127, loss_rd:0.1125, loss_svdd:0.0002
+epoch [157/200], loss_total:0.1129, loss_rd:0.1127, loss_svdd:0.0002
+epoch [158/200], loss_total:0.1127, loss_rd:0.1125, loss_svdd:0.0002
+epoch [159/200], loss_total:0.1129, loss_rd:0.1126, loss_svdd:0.0002
+epoch [160/200], loss_total:0.1128, loss_rd:0.1125, loss_svdd:0.0002
+Sample Auroc{'candle': 0.968, 'capsules': 0.903, 'cashew': 0.965, 'chewinggum': 0.977, 'fryum': 0.966, 'macaroni1': 0.983, 'macaroni2': 0.916, 'pcb1': 0.976, 'pcb2': 0.976, 'pcb3': 0.962, 'pcb4': 0.998, 'pipe_fryum': 0.997, 'mean': 0.966}
+Pixel Auroc:{'candle': 0.991, 'capsules': 0.992, 'cashew': 0.931, 'chewinggum': 0.976, 'fryum': 0.975, 'macaroni1': 0.996, 'macaroni2': 0.994, 'pcb1': 0.997, 'pcb2': 0.988, 'pcb3': 0.989, 'pcb4': 0.986, 'pipe_fryum': 0.992, 'mean': 0.984}
+Pixel Aupro{'candle': 0.951, 'capsules': 0.949, 'cashew': 0.875, 'chewinggum': 0.815, 'fryum': 0.935, 'macaroni1': 0.96, 'macaroni2': 0.975, 'pcb1': 0.953, 'pcb2': 0.934, 'pcb3': 0.942, 'pcb4': 0.912, 'pipe_fryum': 0.976, 'mean': 0.931}
+epoch [161/200], loss_total:0.1126, loss_rd:0.1123, loss_svdd:0.0002
+epoch [162/200], loss_total:0.1127, loss_rd:0.1124, loss_svdd:0.0002
+epoch [163/200], loss_total:0.1126, loss_rd:0.1124, loss_svdd:0.0002
+epoch [164/200], loss_total:0.1126, loss_rd:0.1124, loss_svdd:0.0002
+epoch [165/200], loss_total:0.1128, loss_rd:0.1125, loss_svdd:0.0002
+Sample Auroc{'candle': 0.968, 'capsules': 0.904, 'cashew': 0.966, 'chewinggum': 0.977, 'fryum': 0.966, 'macaroni1': 0.983, 'macaroni2': 0.916, 'pcb1': 0.976, 'pcb2': 0.977, 'pcb3': 0.962, 'pcb4': 0.998, 'pipe_fryum': 0.997, 'mean': 0.966}
+Pixel Auroc:{'candle': 0.991, 'capsules': 0.992, 'cashew': 0.931, 'chewinggum': 0.976, 'fryum': 0.975, 'macaroni1': 0.996, 'macaroni2': 0.994, 'pcb1': 0.997, 'pcb2': 0.988, 'pcb3': 0.989, 'pcb4': 0.986, 'pipe_fryum': 0.992, 'mean': 0.984}
+Pixel Aupro{'candle': 0.952, 'capsules': 0.949, 'cashew': 0.875, 'chewinggum': 0.815, 'fryum': 0.935, 'macaroni1': 0.96, 'macaroni2': 0.975, 'pcb1': 0.953, 'pcb2': 0.934, 'pcb3': 0.942, 'pcb4': 0.912, 'pipe_fryum': 0.976, 'mean': 0.932}
+epoch [166/200], loss_total:0.1123, loss_rd:0.1121, loss_svdd:0.0002
+epoch [167/200], loss_total:0.1126, loss_rd:0.1123, loss_svdd:0.0002
+epoch [168/200], loss_total:0.1126, loss_rd:0.1124, loss_svdd:0.0002
+epoch [169/200], loss_total:0.1125, loss_rd:0.1123, loss_svdd:0.0002
+epoch [170/200], loss_total:0.1125, loss_rd:0.1123, loss_svdd:0.0002
+Sample Auroc{'candle': 0.969, 'capsules': 0.904, 'cashew': 0.966, 'chewinggum': 0.978, 'fryum': 0.966, 'macaroni1': 0.983, 'macaroni2': 0.917, 'pcb1': 0.976, 'pcb2': 0.977, 'pcb3': 0.962, 'pcb4': 0.998, 'pipe_fryum': 0.997, 'mean': 0.966}
+Pixel Auroc:{'candle': 0.991, 'capsules': 0.992, 'cashew': 0.932, 'chewinggum': 0.976, 'fryum': 0.975, 'macaroni1': 0.996, 'macaroni2': 0.994, 'pcb1': 0.997, 'pcb2': 0.988, 'pcb3': 0.989, 'pcb4': 0.986, 'pipe_fryum': 0.992, 'mean': 0.984}
+Pixel Aupro{'candle': 0.952, 'capsules': 0.949, 'cashew': 0.876, 'chewinggum': 0.815, 'fryum': 0.935, 'macaroni1': 0.96, 'macaroni2': 0.975, 'pcb1': 0.953, 'pcb2': 0.934, 'pcb3': 0.942, 'pcb4': 0.912, 'pipe_fryum': 0.976, 'mean': 0.932}
+epoch [171/200], loss_total:0.1124, loss_rd:0.1122, loss_svdd:0.0002
+epoch [172/200], loss_total:0.1126, loss_rd:0.1124, loss_svdd:0.0002
+epoch [173/200], loss_total:0.1126, loss_rd:0.1123, loss_svdd:0.0002
+epoch [174/200], loss_total:0.1126, loss_rd:0.1124, loss_svdd:0.0002
+epoch [175/200], loss_total:0.1125, loss_rd:0.1123, loss_svdd:0.0002
+Sample Auroc{'candle': 0.968, 'capsules': 0.903, 'cashew': 0.966, 'chewinggum': 0.978, 'fryum': 0.966, 'macaroni1': 0.983, 'macaroni2': 0.917, 'pcb1': 0.976, 'pcb2': 0.976, 'pcb3': 0.962, 'pcb4': 0.998, 'pipe_fryum': 0.997, 'mean': 0.966}
+Pixel Auroc:{'candle': 0.991, 'capsules': 0.992, 'cashew': 0.932, 'chewinggum': 0.976, 'fryum': 0.975, 'macaroni1': 0.996, 'macaroni2': 0.994, 'pcb1': 0.997, 'pcb2': 0.988, 'pcb3': 0.989, 'pcb4': 0.986, 'pipe_fryum': 0.992, 'mean': 0.984}
+Pixel Aupro{'candle': 0.952, 'capsules': 0.948, 'cashew': 0.874, 'chewinggum': 0.816, 'fryum': 0.935, 'macaroni1': 0.961, 'macaroni2': 0.976, 'pcb1': 0.953, 'pcb2': 0.934, 'pcb3': 0.942, 'pcb4': 0.912, 'pipe_fryum': 0.976, 'mean': 0.932}
+epoch [176/200], loss_total:0.1125, loss_rd:0.1123, loss_svdd:0.0002
+epoch [177/200], loss_total:0.1124, loss_rd:0.1121, loss_svdd:0.0002
+epoch [178/200], loss_total:0.1124, loss_rd:0.1122, loss_svdd:0.0002
+epoch [179/200], loss_total:0.1124, loss_rd:0.1122, loss_svdd:0.0002
+epoch [180/200], loss_total:0.1124, loss_rd:0.1122, loss_svdd:0.0002
+Sample Auroc{'candle': 0.968, 'capsules': 0.902, 'cashew': 0.966, 'chewinggum': 0.977, 'fryum': 0.966, 'macaroni1': 0.983, 'macaroni2': 0.916, 'pcb1': 0.977, 'pcb2': 0.977, 'pcb3': 0.962, 'pcb4': 0.998, 'pipe_fryum': 0.997, 'mean': 0.966}
+Pixel Auroc:{'candle': 0.991, 'capsules': 0.992, 'cashew': 0.931, 'chewinggum': 0.976, 'fryum': 0.975, 'macaroni1': 0.996, 'macaroni2': 0.994, 'pcb1': 0.997, 'pcb2': 0.988, 'pcb3': 0.989, 'pcb4': 0.986, 'pipe_fryum': 0.992, 'mean': 0.984}
+Pixel Aupro{'candle': 0.952, 'capsules': 0.948, 'cashew': 0.877, 'chewinggum': 0.816, 'fryum': 0.935, 'macaroni1': 0.96, 'macaroni2': 0.975, 'pcb1': 0.953, 'pcb2': 0.934, 'pcb3': 0.942, 'pcb4': 0.912, 'pipe_fryum': 0.976, 'mean': 0.932}
+epoch [181/200], loss_total:0.1122, loss_rd:0.1120, loss_svdd:0.0002
+epoch [182/200], loss_total:0.1123, loss_rd:0.1121, loss_svdd:0.0002
+epoch [183/200], loss_total:0.1123, loss_rd:0.1121, loss_svdd:0.0002
+epoch [184/200], loss_total:0.1124, loss_rd:0.1121, loss_svdd:0.0002
+epoch [185/200], loss_total:0.1124, loss_rd:0.1122, loss_svdd:0.0002
+Sample Auroc{'candle': 0.968, 'capsules': 0.904, 'cashew': 0.967, 'chewinggum': 0.977, 'fryum': 0.966, 'macaroni1': 0.983, 'macaroni2': 0.917, 'pcb1': 0.976, 'pcb2': 0.976, 'pcb3': 0.962, 'pcb4': 0.998, 'pipe_fryum': 0.997, 'mean': 0.966}
+Pixel Auroc:{'candle': 0.991, 'capsules': 0.992, 'cashew': 0.932, 'chewinggum': 0.976, 'fryum': 0.975, 'macaroni1': 0.996, 'macaroni2': 0.994, 'pcb1': 0.997, 'pcb2': 0.988, 'pcb3': 0.989, 'pcb4': 0.986, 'pipe_fryum': 0.992, 'mean': 0.984}
+Pixel Aupro{'candle': 0.951, 'capsules': 0.949, 'cashew': 0.874, 'chewinggum': 0.815, 'fryum': 0.935, 'macaroni1': 0.961, 'macaroni2': 0.976, 'pcb1': 0.953, 'pcb2': 0.933, 'pcb3': 0.942, 'pcb4': 0.912, 'pipe_fryum': 0.976, 'mean': 0.931}
+epoch [186/200], loss_total:0.1123, loss_rd:0.1121, loss_svdd:0.0002
+epoch [187/200], loss_total:0.1125, loss_rd:0.1123, loss_svdd:0.0002
+epoch [188/200], loss_total:0.1124, loss_rd:0.1122, loss_svdd:0.0002
+epoch [189/200], loss_total:0.1122, loss_rd:0.1120, loss_svdd:0.0002
+epoch [190/200], loss_total:0.1124, loss_rd:0.1121, loss_svdd:0.0002
+Sample Auroc{'candle': 0.967, 'capsules': 0.902, 'cashew': 0.967, 'chewinggum': 0.977, 'fryum': 0.966, 'macaroni1': 0.983, 'macaroni2': 0.917, 'pcb1': 0.976, 'pcb2': 0.977, 'pcb3': 0.962, 'pcb4': 0.998, 'pipe_fryum': 0.997, 'mean': 0.966}
+Pixel Auroc:{'candle': 0.991, 'capsules': 0.992, 'cashew': 0.931, 'chewinggum': 0.976, 'fryum': 0.975, 'macaroni1': 0.996, 'macaroni2': 0.994, 'pcb1': 0.997, 'pcb2': 0.988, 'pcb3': 0.989, 'pcb4': 0.986, 'pipe_fryum': 0.992, 'mean': 0.984}
+Pixel Aupro{'candle': 0.952, 'capsules': 0.949, 'cashew': 0.875, 'chewinggum': 0.815, 'fryum': 0.935, 'macaroni1': 0.96, 'macaroni2': 0.976, 'pcb1': 0.953, 'pcb2': 0.933, 'pcb3': 0.942, 'pcb4': 0.912, 'pipe_fryum': 0.976, 'mean': 0.932}
+epoch [191/200], loss_total:0.1122, loss_rd:0.1120, loss_svdd:0.0002
+epoch [192/200], loss_total:0.1122, loss_rd:0.1120, loss_svdd:0.0002
+epoch [193/200], loss_total:0.1122, loss_rd:0.1120, loss_svdd:0.0002
+epoch [194/200], loss_total:0.1123, loss_rd:0.1120, loss_svdd:0.0002
+epoch [195/200], loss_total:0.1125, loss_rd:0.1122, loss_svdd:0.0002
+Sample Auroc{'candle': 0.968, 'capsules': 0.904, 'cashew': 0.967, 'chewinggum': 0.978, 'fryum': 0.966, 'macaroni1': 0.983, 'macaroni2': 0.916, 'pcb1': 0.977, 'pcb2': 0.976, 'pcb3': 0.962, 'pcb4': 0.998, 'pipe_fryum': 0.997, 'mean': 0.966}
+Pixel Auroc:{'candle': 0.991, 'capsules': 0.992, 'cashew': 0.932, 'chewinggum': 0.976, 'fryum': 0.975, 'macaroni1': 0.996, 'macaroni2': 0.994, 'pcb1': 0.997, 'pcb2': 0.988, 'pcb3': 0.989, 'pcb4': 0.986, 'pipe_fryum': 0.992, 'mean': 0.984}
+Pixel Aupro{'candle': 0.952, 'capsules': 0.949, 'cashew': 0.875, 'chewinggum': 0.816, 'fryum': 0.935, 'macaroni1': 0.961, 'macaroni2': 0.975, 'pcb1': 0.953, 'pcb2': 0.934, 'pcb3': 0.942, 'pcb4': 0.912, 'pipe_fryum': 0.976, 'mean': 0.932}
+epoch [196/200], loss_total:0.1123, loss_rd:0.1121, loss_svdd:0.0002
+epoch [197/200], loss_total:0.1123, loss_rd:0.1121, loss_svdd:0.0002
+epoch [198/200], loss_total:0.1122, loss_rd:0.1120, loss_svdd:0.0002
+epoch [199/200], loss_total:0.1122, loss_rd:0.1120, loss_svdd:0.0002
+epoch [200/200], loss_total:0.1124, loss_rd:0.1121, loss_svdd:0.0002
+Sample Auroc{'candle': 0.968, 'capsules': 0.904, 'cashew': 0.966, 'chewinggum': 0.977, 'fryum': 0.966, 'macaroni1': 0.983, 'macaroni2': 0.916, 'pcb1': 0.976, 'pcb2': 0.977, 'pcb3': 0.963, 'pcb4': 0.998, 'pipe_fryum': 0.997, 'mean': 0.966}
+Pixel Auroc:{'candle': 0.991, 'capsules': 0.992, 'cashew': 0.932, 'chewinggum': 0.976, 'fryum': 0.975, 'macaroni1': 0.996, 'macaroni2': 0.994, 'pcb1': 0.997, 'pcb2': 0.988, 'pcb3': 0.989, 'pcb4': 0.986, 'pipe_fryum': 0.992, 'mean': 0.984}
+Pixel Aupro{'candle': 0.952, 'capsules': 0.949, 'cashew': 0.876, 'chewinggum': 0.815, 'fryum': 0.935, 'macaroni1': 0.961, 'macaroni2': 0.975, 'pcb1': 0.953, 'pcb2': 0.935, 'pcb3': 0.942, 'pcb4': 0.912, 'pipe_fryum': 0.976, 'mean': 0.932}
+Epoch 150 is the Best !
+Sample Auroc: 0.9660, Pixel Auroc: 0.9840, Pixel Aupro: 0.9320

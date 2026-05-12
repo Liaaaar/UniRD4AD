@@ -1,0 +1,323 @@
+device = cuda
+epoch [1/200], loss_total:7.3278, loss_rd:0.8663, loss_svdd:6.4615
+epoch [2/200], loss_total:2.4569, loss_rd:0.6804, loss_svdd:1.7765
+epoch [3/200], loss_total:1.6354, loss_rd:0.5797, loss_svdd:1.0557
+epoch [4/200], loss_total:1.4275, loss_rd:0.5211, loss_svdd:0.9064
+epoch [5/200], loss_total:1.3601, loss_rd:0.4842, loss_svdd:0.8759
+Sample Auroc{'bottle': 0.913, 'cable': 0.85, 'capsule': 0.44, 'carpet': 0.999, 'grid': 0.874, 'hazelnut': 0.995, 'leather': 1.0, 'metal_nut': 0.772, 'pill': 0.719, 'screw': 0.516, 'tile': 0.973, 'toothbrush': 0.839, 'transistor': 0.912, 'wood': 0.985, 'zipper': 0.736, 'mean': 0.835}
+Pixel Auroc:{'bottle': 0.889, 'cable': 0.769, 'capsule': 0.914, 'carpet': 0.991, 'grid': 0.892, 'hazelnut': 0.982, 'leather': 0.995, 'metal_nut': 0.882, 'pill': 0.923, 'screw': 0.903, 'tile': 0.945, 'toothbrush': 0.969, 'transistor': 0.904, 'wood': 0.94, 'zipper': 0.837, 'mean': 0.916}
+Pixel Aupro{'bottle': 0.655, 'cable': 0.708, 'capsule': 0.702, 'carpet': 0.972, 'grid': 0.886, 'hazelnut': 0.938, 'leather': 0.991, 'metal_nut': 0.679, 'pill': 0.841, 'screw': 0.701, 'tile': 0.876, 'toothbrush': 0.81, 'transistor': 0.763, 'wood': 0.914, 'zipper': 0.497, 'mean': 0.796}
+epoch [6/200], loss_total:1.3451, loss_rd:0.4547, loss_svdd:0.8904
+epoch [7/200], loss_total:1.2268, loss_rd:0.4442, loss_svdd:0.7825
+epoch [8/200], loss_total:1.0397, loss_rd:0.4178, loss_svdd:0.6220
+epoch [9/200], loss_total:1.0505, loss_rd:0.4062, loss_svdd:0.6443
+epoch [10/200], loss_total:1.0637, loss_rd:0.4000, loss_svdd:0.6637
+Sample Auroc{'bottle': 1.0, 'cable': 0.937, 'capsule': 0.701, 'carpet': 1.0, 'grid': 0.911, 'hazelnut': 1.0, 'leather': 1.0, 'metal_nut': 0.981, 'pill': 0.739, 'screw': 0.739, 'tile': 0.983, 'toothbrush': 0.958, 'transistor': 0.982, 'wood': 0.991, 'zipper': 0.873, 'mean': 0.92}
+Pixel Auroc:{'bottle': 0.986, 'cable': 0.879, 'capsule': 0.974, 'carpet': 0.992, 'grid': 0.917, 'hazelnut': 0.989, 'leather': 0.995, 'metal_nut': 0.962, 'pill': 0.939, 'screw': 0.974, 'tile': 0.956, 'toothbrush': 0.986, 'transistor': 0.93, 'wood': 0.954, 'zipper': 0.972, 'mean': 0.96}
+Pixel Aupro{'bottle': 0.955, 'cable': 0.805, 'capsule': 0.902, 'carpet': 0.976, 'grid': 0.919, 'hazelnut': 0.952, 'leather': 0.991, 'metal_nut': 0.893, 'pill': 0.889, 'screw': 0.904, 'tile': 0.9, 'toothbrush': 0.91, 'transistor': 0.843, 'wood': 0.936, 'zipper': 0.924, 'mean': 0.913}
+epoch [11/200], loss_total:1.0712, loss_rd:0.3884, loss_svdd:0.6827
+epoch [12/200], loss_total:1.0857, loss_rd:0.3842, loss_svdd:0.7015
+epoch [13/200], loss_total:1.0942, loss_rd:0.3784, loss_svdd:0.7158
+epoch [14/200], loss_total:1.1109, loss_rd:0.3657, loss_svdd:0.7452
+epoch [15/200], loss_total:1.1449, loss_rd:0.3739, loss_svdd:0.7710
+Sample Auroc{'bottle': 1.0, 'cable': 0.944, 'capsule': 0.8, 'carpet': 0.999, 'grid': 0.917, 'hazelnut': 1.0, 'leather': 1.0, 'metal_nut': 0.989, 'pill': 0.808, 'screw': 0.772, 'tile': 0.984, 'toothbrush': 0.961, 'transistor': 0.997, 'wood': 0.984, 'zipper': 0.882, 'mean': 0.936}
+Pixel Auroc:{'bottle': 0.987, 'cable': 0.917, 'capsule': 0.978, 'carpet': 0.992, 'grid': 0.932, 'hazelnut': 0.989, 'leather': 0.994, 'metal_nut': 0.968, 'pill': 0.945, 'screw': 0.981, 'tile': 0.957, 'toothbrush': 0.986, 'transistor': 0.935, 'wood': 0.954, 'zipper': 0.97, 'mean': 0.966}
+Pixel Aupro{'bottle': 0.961, 'cable': 0.837, 'capsule': 0.918, 'carpet': 0.976, 'grid': 0.918, 'hazelnut': 0.952, 'leather': 0.991, 'metal_nut': 0.905, 'pill': 0.907, 'screw': 0.927, 'tile': 0.903, 'toothbrush': 0.909, 'transistor': 0.84, 'wood': 0.933, 'zipper': 0.922, 'mean': 0.92}
+epoch [16/200], loss_total:1.1678, loss_rd:0.3621, loss_svdd:0.8057
+epoch [17/200], loss_total:1.2042, loss_rd:0.3633, loss_svdd:0.8409
+epoch [18/200], loss_total:1.2276, loss_rd:0.3525, loss_svdd:0.8751
+epoch [19/200], loss_total:1.2668, loss_rd:0.3513, loss_svdd:0.9155
+epoch [20/200], loss_total:1.3254, loss_rd:0.3529, loss_svdd:0.9725
+Sample Auroc{'bottle': 1.0, 'cable': 0.952, 'capsule': 0.76, 'carpet': 0.999, 'grid': 0.92, 'hazelnut': 1.0, 'leather': 1.0, 'metal_nut': 0.969, 'pill': 0.88, 'screw': 0.706, 'tile': 0.986, 'toothbrush': 0.981, 'transistor': 0.992, 'wood': 0.989, 'zipper': 0.827, 'mean': 0.931}
+Pixel Auroc:{'bottle': 0.986, 'cable': 0.922, 'capsule': 0.976, 'carpet': 0.992, 'grid': 0.929, 'hazelnut': 0.99, 'leather': 0.994, 'metal_nut': 0.964, 'pill': 0.951, 'screw': 0.981, 'tile': 0.958, 'toothbrush': 0.986, 'transistor': 0.926, 'wood': 0.953, 'zipper': 0.93, 'mean': 0.963}
+Pixel Aupro{'bottle': 0.958, 'cable': 0.85, 'capsule': 0.906, 'carpet': 0.976, 'grid': 0.921, 'hazelnut': 0.952, 'leather': 0.991, 'metal_nut': 0.88, 'pill': 0.915, 'screw': 0.924, 'tile': 0.905, 'toothbrush': 0.916, 'transistor': 0.844, 'wood': 0.934, 'zipper': 0.796, 'mean': 0.911}
+epoch [21/200], loss_total:1.3614, loss_rd:0.3328, loss_svdd:1.0286
+epoch [22/200], loss_total:1.3968, loss_rd:0.3315, loss_svdd:1.0653
+epoch [23/200], loss_total:1.4300, loss_rd:0.3270, loss_svdd:1.1030
+epoch [24/200], loss_total:1.4660, loss_rd:0.3257, loss_svdd:1.1403
+epoch [25/200], loss_total:1.5010, loss_rd:0.3208, loss_svdd:1.1802
+Sample Auroc{'bottle': 1.0, 'cable': 0.953, 'capsule': 0.832, 'carpet': 0.893, 'grid': 0.874, 'hazelnut': 1.0, 'leather': 0.974, 'metal_nut': 0.991, 'pill': 0.903, 'screw': 0.832, 'tile': 0.984, 'toothbrush': 0.986, 'transistor': 0.986, 'wood': 0.99, 'zipper': 0.865, 'mean': 0.938}
+Pixel Auroc:{'bottle': 0.989, 'cable': 0.938, 'capsule': 0.979, 'carpet': 0.977, 'grid': 0.93, 'hazelnut': 0.99, 'leather': 0.99, 'metal_nut': 0.975, 'pill': 0.956, 'screw': 0.988, 'tile': 0.957, 'toothbrush': 0.988, 'transistor': 0.94, 'wood': 0.956, 'zipper': 0.956, 'mean': 0.967}
+Pixel Aupro{'bottle': 0.964, 'cable': 0.861, 'capsule': 0.919, 'carpet': 0.921, 'grid': 0.866, 'hazelnut': 0.953, 'leather': 0.982, 'metal_nut': 0.911, 'pill': 0.926, 'screw': 0.95, 'tile': 0.905, 'toothbrush': 0.92, 'transistor': 0.834, 'wood': 0.936, 'zipper': 0.883, 'mean': 0.915}
+epoch [26/200], loss_total:1.5362, loss_rd:0.3165, loss_svdd:1.2197
+epoch [27/200], loss_total:1.5745, loss_rd:0.3126, loss_svdd:1.2619
+epoch [28/200], loss_total:1.6178, loss_rd:0.3095, loss_svdd:1.3083
+epoch [29/200], loss_total:1.6635, loss_rd:0.3052, loss_svdd:1.3583
+epoch [30/200], loss_total:1.7038, loss_rd:0.3031, loss_svdd:1.4008
+Sample Auroc{'bottle': 1.0, 'cable': 0.931, 'capsule': 0.641, 'carpet': 0.992, 'grid': 0.624, 'hazelnut': 0.972, 'leather': 0.999, 'metal_nut': 0.978, 'pill': 0.906, 'screw': 0.557, 'tile': 0.911, 'toothbrush': 0.992, 'transistor': 0.752, 'wood': 0.937, 'zipper': 0.837, 'mean': 0.869}
+Pixel Auroc:{'bottle': 0.987, 'cable': 0.869, 'capsule': 0.914, 'carpet': 0.991, 'grid': 0.92, 'hazelnut': 0.989, 'leather': 0.992, 'metal_nut': 0.962, 'pill': 0.952, 'screw': 0.918, 'tile': 0.933, 'toothbrush': 0.989, 'transistor': 0.907, 'wood': 0.929, 'zipper': 0.958, 'mean': 0.947}
+Pixel Aupro{'bottle': 0.958, 'cable': 0.754, 'capsule': 0.697, 'carpet': 0.971, 'grid': 0.762, 'hazelnut': 0.951, 'leather': 0.989, 'metal_nut': 0.882, 'pill': 0.914, 'screw': 0.698, 'tile': 0.84, 'toothbrush': 0.923, 'transistor': 0.723, 'wood': 0.881, 'zipper': 0.878, 'mean': 0.855}
+epoch [31/200], loss_total:1.7582, loss_rd:0.3013, loss_svdd:1.4570
+epoch [32/200], loss_total:1.8212, loss_rd:0.3014, loss_svdd:1.5197
+epoch [33/200], loss_total:1.8777, loss_rd:0.2964, loss_svdd:1.5812
+epoch [34/200], loss_total:1.9432, loss_rd:0.2935, loss_svdd:1.6497
+epoch [35/200], loss_total:2.0062, loss_rd:0.2921, loss_svdd:1.7141
+Sample Auroc{'bottle': 1.0, 'cable': 0.892, 'capsule': 0.668, 'carpet': 0.807, 'grid': 0.703, 'hazelnut': 0.997, 'leather': 0.953, 'metal_nut': 0.964, 'pill': 0.602, 'screw': 0.54, 'tile': 0.965, 'toothbrush': 0.925, 'transistor': 0.961, 'wood': 0.941, 'zipper': 0.705, 'mean': 0.842}
+Pixel Auroc:{'bottle': 0.975, 'cable': 0.851, 'capsule': 0.923, 'carpet': 0.797, 'grid': 0.762, 'hazelnut': 0.988, 'leather': 0.989, 'metal_nut': 0.962, 'pill': 0.905, 'screw': 0.917, 'tile': 0.872, 'toothbrush': 0.984, 'transistor': 0.89, 'wood': 0.916, 'zipper': 0.916, 'mean': 0.91}
+Pixel Aupro{'bottle': 0.909, 'cable': 0.721, 'capsule': 0.722, 'carpet': 0.695, 'grid': 0.55, 'hazelnut': 0.945, 'leather': 0.973, 'metal_nut': 0.866, 'pill': 0.774, 'screw': 0.743, 'tile': 0.688, 'toothbrush': 0.899, 'transistor': 0.735, 'wood': 0.871, 'zipper': 0.768, 'mean': 0.791}
+epoch [36/200], loss_total:2.1043, loss_rd:0.3057, loss_svdd:1.7986
+epoch [37/200], loss_total:2.1606, loss_rd:0.2898, loss_svdd:1.8708
+epoch [38/200], loss_total:2.2204, loss_rd:0.2904, loss_svdd:1.9300
+epoch [39/200], loss_total:2.2891, loss_rd:0.2880, loss_svdd:2.0010
+epoch [40/200], loss_total:2.3898, loss_rd:0.3002, loss_svdd:2.0897
+Sample Auroc{'bottle': 0.995, 'cable': 0.945, 'capsule': 0.66, 'carpet': 0.97, 'grid': 0.643, 'hazelnut': 0.919, 'leather': 0.962, 'metal_nut': 0.864, 'pill': 0.78, 'screw': 0.523, 'tile': 0.98, 'toothbrush': 0.969, 'transistor': 0.939, 'wood': 0.982, 'zipper': 0.76, 'mean': 0.859}
+Pixel Auroc:{'bottle': 0.974, 'cable': 0.938, 'capsule': 0.923, 'carpet': 0.956, 'grid': 0.899, 'hazelnut': 0.985, 'leather': 0.991, 'metal_nut': 0.927, 'pill': 0.909, 'screw': 0.935, 'tile': 0.959, 'toothbrush': 0.986, 'transistor': 0.915, 'wood': 0.952, 'zipper': 0.861, 'mean': 0.941}
+Pixel Aupro{'bottle': 0.912, 'cable': 0.861, 'capsule': 0.705, 'carpet': 0.921, 'grid': 0.708, 'hazelnut': 0.935, 'leather': 0.98, 'metal_nut': 0.75, 'pill': 0.803, 'screw': 0.76, 'tile': 0.911, 'toothbrush': 0.889, 'transistor': 0.758, 'wood': 0.931, 'zipper': 0.631, 'mean': 0.83}
+epoch [41/200], loss_total:2.4281, loss_rd:0.2811, loss_svdd:2.1470
+epoch [42/200], loss_total:2.4599, loss_rd:0.2763, loss_svdd:2.1837
+epoch [43/200], loss_total:2.5082, loss_rd:0.2745, loss_svdd:2.2337
+epoch [44/200], loss_total:2.5443, loss_rd:0.2737, loss_svdd:2.2706
+epoch [45/200], loss_total:2.5793, loss_rd:0.2738, loss_svdd:2.3055
+Sample Auroc{'bottle': 1.0, 'cable': 0.731, 'capsule': 0.733, 'carpet': 0.927, 'grid': 0.65, 'hazelnut': 0.962, 'leather': 0.673, 'metal_nut': 0.98, 'pill': 0.69, 'screw': 0.465, 'tile': 0.71, 'toothbrush': 0.969, 'transistor': 0.629, 'wood': 0.754, 'zipper': 0.675, 'mean': 0.77}
+Pixel Auroc:{'bottle': 0.986, 'cable': 0.807, 'capsule': 0.929, 'carpet': 0.984, 'grid': 0.887, 'hazelnut': 0.99, 'leather': 0.963, 'metal_nut': 0.973, 'pill': 0.935, 'screw': 0.953, 'tile': 0.778, 'toothbrush': 0.99, 'transistor': 0.838, 'wood': 0.832, 'zipper': 0.924, 'mean': 0.918}
+Pixel Aupro{'bottle': 0.955, 'cable': 0.55, 'capsule': 0.753, 'carpet': 0.941, 'grid': 0.656, 'hazelnut': 0.952, 'leather': 0.905, 'metal_nut': 0.906, 'pill': 0.867, 'screw': 0.832, 'tile': 0.382, 'toothbrush': 0.929, 'transistor': 0.507, 'wood': 0.584, 'zipper': 0.762, 'mean': 0.765}
+epoch [46/200], loss_total:2.6123, loss_rd:0.2722, loss_svdd:2.3401
+epoch [47/200], loss_total:2.6470, loss_rd:0.2723, loss_svdd:2.3747
+epoch [48/200], loss_total:2.6814, loss_rd:0.2703, loss_svdd:2.4111
+epoch [49/200], loss_total:2.7188, loss_rd:0.2703, loss_svdd:2.4485
+epoch [50/200], loss_total:2.7607, loss_rd:0.2689, loss_svdd:2.4918
+Sample Auroc{'bottle': 1.0, 'cable': 0.947, 'capsule': 0.906, 'carpet': 0.991, 'grid': 0.951, 'hazelnut': 1.0, 'leather': 1.0, 'metal_nut': 0.998, 'pill': 0.958, 'screw': 0.91, 'tile': 0.984, 'toothbrush': 0.989, 'transistor': 0.998, 'wood': 0.989, 'zipper': 0.922, 'mean': 0.97}
+Pixel Auroc:{'bottle': 0.989, 'cable': 0.948, 'capsule': 0.98, 'carpet': 0.991, 'grid': 0.987, 'hazelnut': 0.991, 'leather': 0.994, 'metal_nut': 0.977, 'pill': 0.971, 'screw': 0.992, 'tile': 0.961, 'toothbrush': 0.99, 'transistor': 0.95, 'wood': 0.959, 'zipper': 0.973, 'mean': 0.977}
+Pixel Aupro{'bottle': 0.967, 'cable': 0.874, 'capsule': 0.927, 'carpet': 0.973, 'grid': 0.966, 'hazelnut': 0.954, 'leather': 0.991, 'metal_nut': 0.917, 'pill': 0.954, 'screw': 0.968, 'tile': 0.913, 'toothbrush': 0.935, 'transistor': 0.856, 'wood': 0.938, 'zipper': 0.929, 'mean': 0.937}
+epoch [51/200], loss_total:2.8072, loss_rd:0.2672, loss_svdd:2.5400
+epoch [52/200], loss_total:2.8698, loss_rd:0.2672, loss_svdd:2.6026
+epoch [53/200], loss_total:2.9496, loss_rd:0.2670, loss_svdd:2.6827
+epoch [54/200], loss_total:3.0284, loss_rd:0.2649, loss_svdd:2.7636
+epoch [55/200], loss_total:3.1210, loss_rd:0.2636, loss_svdd:2.8574
+Sample Auroc{'bottle': 1.0, 'cable': 0.951, 'capsule': 0.934, 'carpet': 0.992, 'grid': 0.984, 'hazelnut': 1.0, 'leather': 1.0, 'metal_nut': 0.999, 'pill': 0.967, 'screw': 0.918, 'tile': 0.984, 'toothbrush': 0.992, 'transistor': 0.996, 'wood': 0.992, 'zipper': 0.927, 'mean': 0.976}
+Pixel Auroc:{'bottle': 0.989, 'cable': 0.946, 'capsule': 0.983, 'carpet': 0.991, 'grid': 0.989, 'hazelnut': 0.991, 'leather': 0.994, 'metal_nut': 0.978, 'pill': 0.969, 'screw': 0.992, 'tile': 0.961, 'toothbrush': 0.99, 'transistor': 0.949, 'wood': 0.959, 'zipper': 0.975, 'mean': 0.977}
+Pixel Aupro{'bottle': 0.967, 'cable': 0.874, 'capsule': 0.937, 'carpet': 0.974, 'grid': 0.972, 'hazelnut': 0.955, 'leather': 0.992, 'metal_nut': 0.917, 'pill': 0.953, 'screw': 0.968, 'tile': 0.914, 'toothbrush': 0.935, 'transistor': 0.854, 'wood': 0.937, 'zipper': 0.932, 'mean': 0.939}
+epoch [56/200], loss_total:3.2353, loss_rd:0.2657, loss_svdd:2.9696
+epoch [57/200], loss_total:3.3546, loss_rd:0.2628, loss_svdd:3.0918
+epoch [58/200], loss_total:3.4781, loss_rd:0.2621, loss_svdd:3.2160
+epoch [59/200], loss_total:3.6106, loss_rd:0.2618, loss_svdd:3.3489
+epoch [60/200], loss_total:3.7732, loss_rd:0.2616, loss_svdd:3.5117
+Sample Auroc{'bottle': 1.0, 'cable': 0.562, 'capsule': 0.45, 'carpet': 0.555, 'grid': 0.642, 'hazelnut': 0.877, 'leather': 0.605, 'metal_nut': 0.945, 'pill': 0.748, 'screw': 0.573, 'tile': 0.562, 'toothbrush': 0.989, 'transistor': 0.506, 'wood': 0.587, 'zipper': 0.925, 'mean': 0.702}
+Pixel Auroc:{'bottle': 0.983, 'cable': 0.821, 'capsule': 0.831, 'carpet': 0.916, 'grid': 0.877, 'hazelnut': 0.981, 'leather': 0.917, 'metal_nut': 0.962, 'pill': 0.925, 'screw': 0.858, 'tile': 0.857, 'toothbrush': 0.989, 'transistor': 0.823, 'wood': 0.85, 'zipper': 0.951, 'mean': 0.903}
+Pixel Aupro{'bottle': 0.95, 'cable': 0.575, 'capsule': 0.437, 'carpet': 0.708, 'grid': 0.584, 'hazelnut': 0.922, 'leather': 0.726, 'metal_nut': 0.87, 'pill': 0.831, 'screw': 0.508, 'tile': 0.577, 'toothbrush': 0.927, 'transistor': 0.465, 'wood': 0.571, 'zipper': 0.863, 'mean': 0.701}
+epoch [61/200], loss_total:3.8470, loss_rd:0.2561, loss_svdd:3.5909
+epoch [62/200], loss_total:3.8714, loss_rd:0.2539, loss_svdd:3.6175
+epoch [63/200], loss_total:3.8969, loss_rd:0.2534, loss_svdd:3.6435
+epoch [64/200], loss_total:3.9225, loss_rd:0.2535, loss_svdd:3.6689
+epoch [65/200], loss_total:3.9473, loss_rd:0.2522, loss_svdd:3.6951
+Sample Auroc{'bottle': 1.0, 'cable': 0.95, 'capsule': 0.939, 'carpet': 0.986, 'grid': 0.988, 'hazelnut': 1.0, 'leather': 1.0, 'metal_nut': 0.999, 'pill': 0.971, 'screw': 0.938, 'tile': 0.986, 'toothbrush': 0.983, 'transistor': 0.999, 'wood': 0.99, 'zipper': 0.949, 'mean': 0.979}
+Pixel Auroc:{'bottle': 0.99, 'cable': 0.952, 'capsule': 0.983, 'carpet': 0.991, 'grid': 0.991, 'hazelnut': 0.991, 'leather': 0.994, 'metal_nut': 0.978, 'pill': 0.975, 'screw': 0.993, 'tile': 0.961, 'toothbrush': 0.99, 'transistor': 0.953, 'wood': 0.963, 'zipper': 0.976, 'mean': 0.979}
+Pixel Aupro{'bottle': 0.968, 'cable': 0.88, 'capsule': 0.937, 'carpet': 0.972, 'grid': 0.973, 'hazelnut': 0.955, 'leather': 0.991, 'metal_nut': 0.914, 'pill': 0.96, 'screw': 0.972, 'tile': 0.914, 'toothbrush': 0.937, 'transistor': 0.863, 'wood': 0.939, 'zipper': 0.936, 'mean': 0.941}
+epoch [66/200], loss_total:3.9748, loss_rd:0.2522, loss_svdd:3.7226
+epoch [67/200], loss_total:4.0037, loss_rd:0.2512, loss_svdd:3.7525
+epoch [68/200], loss_total:4.0347, loss_rd:0.2511, loss_svdd:3.7836
+epoch [69/200], loss_total:4.0699, loss_rd:0.2518, loss_svdd:3.8182
+epoch [70/200], loss_total:4.1102, loss_rd:0.2511, loss_svdd:3.8591
+Sample Auroc{'bottle': 1.0, 'cable': 0.954, 'capsule': 0.944, 'carpet': 0.987, 'grid': 0.98, 'hazelnut': 1.0, 'leather': 1.0, 'metal_nut': 0.999, 'pill': 0.965, 'screw': 0.823, 'tile': 0.978, 'toothbrush': 0.986, 'transistor': 0.986, 'wood': 0.988, 'zipper': 0.951, 'mean': 0.969}
+Pixel Auroc:{'bottle': 0.99, 'cable': 0.941, 'capsule': 0.982, 'carpet': 0.991, 'grid': 0.989, 'hazelnut': 0.991, 'leather': 0.994, 'metal_nut': 0.979, 'pill': 0.973, 'screw': 0.99, 'tile': 0.96, 'toothbrush': 0.99, 'transistor': 0.952, 'wood': 0.961, 'zipper': 0.975, 'mean': 0.977}
+Pixel Aupro{'bottle': 0.968, 'cable': 0.86, 'capsule': 0.933, 'carpet': 0.972, 'grid': 0.969, 'hazelnut': 0.954, 'leather': 0.991, 'metal_nut': 0.919, 'pill': 0.956, 'screw': 0.963, 'tile': 0.913, 'toothbrush': 0.939, 'transistor': 0.853, 'wood': 0.937, 'zipper': 0.934, 'mean': 0.937}
+epoch [71/200], loss_total:4.1601, loss_rd:0.2505, loss_svdd:3.9097
+epoch [72/200], loss_total:4.2416, loss_rd:0.2523, loss_svdd:3.9893
+epoch [73/200], loss_total:4.2972, loss_rd:0.2484, loss_svdd:4.0488
+epoch [74/200], loss_total:4.3504, loss_rd:0.2489, loss_svdd:4.1015
+epoch [75/200], loss_total:4.4217, loss_rd:0.2480, loss_svdd:4.1737
+Sample Auroc{'bottle': 0.947, 'cable': 0.859, 'capsule': 0.723, 'carpet': 0.761, 'grid': 0.869, 'hazelnut': 1.0, 'leather': 0.999, 'metal_nut': 0.877, 'pill': 0.932, 'screw': 0.423, 'tile': 0.835, 'toothbrush': 0.911, 'transistor': 0.709, 'wood': 0.936, 'zipper': 0.581, 'mean': 0.824}
+Pixel Auroc:{'bottle': 0.954, 'cable': 0.888, 'capsule': 0.944, 'carpet': 0.792, 'grid': 0.98, 'hazelnut': 0.991, 'leather': 0.995, 'metal_nut': 0.965, 'pill': 0.955, 'screw': 0.933, 'tile': 0.897, 'toothbrush': 0.987, 'transistor': 0.898, 'wood': 0.927, 'zipper': 0.783, 'mean': 0.926}
+Pixel Aupro{'bottle': 0.848, 'cable': 0.76, 'capsule': 0.786, 'carpet': 0.729, 'grid': 0.945, 'hazelnut': 0.952, 'leather': 0.992, 'metal_nut': 0.868, 'pill': 0.916, 'screw': 0.762, 'tile': 0.721, 'toothbrush': 0.905, 'transistor': 0.655, 'wood': 0.857, 'zipper': 0.488, 'mean': 0.812}
+epoch [76/200], loss_total:4.5228, loss_rd:0.2517, loss_svdd:4.2711
+epoch [77/200], loss_total:4.5858, loss_rd:0.2477, loss_svdd:4.3381
+epoch [78/200], loss_total:4.6364, loss_rd:0.2460, loss_svdd:4.3904
+epoch [79/200], loss_total:4.6965, loss_rd:0.2464, loss_svdd:4.4501
+epoch [80/200], loss_total:4.7672, loss_rd:0.2450, loss_svdd:4.5221
+Sample Auroc{'bottle': 1.0, 'cable': 0.956, 'capsule': 0.955, 'carpet': 0.987, 'grid': 0.992, 'hazelnut': 1.0, 'leather': 1.0, 'metal_nut': 1.0, 'pill': 0.97, 'screw': 0.946, 'tile': 0.987, 'toothbrush': 0.983, 'transistor': 0.999, 'wood': 0.989, 'zipper': 0.963, 'mean': 0.982}
+Pixel Auroc:{'bottle': 0.99, 'cable': 0.952, 'capsule': 0.984, 'carpet': 0.991, 'grid': 0.991, 'hazelnut': 0.991, 'leather': 0.994, 'metal_nut': 0.978, 'pill': 0.975, 'screw': 0.993, 'tile': 0.962, 'toothbrush': 0.99, 'transistor': 0.956, 'wood': 0.962, 'zipper': 0.977, 'mean': 0.979}
+Pixel Aupro{'bottle': 0.968, 'cable': 0.882, 'capsule': 0.941, 'carpet': 0.973, 'grid': 0.974, 'hazelnut': 0.954, 'leather': 0.992, 'metal_nut': 0.914, 'pill': 0.961, 'screw': 0.973, 'tile': 0.917, 'toothbrush': 0.938, 'transistor': 0.862, 'wood': 0.936, 'zipper': 0.938, 'mean': 0.942}
+epoch [81/200], loss_total:4.8112, loss_rd:0.2425, loss_svdd:4.5686
+epoch [82/200], loss_total:4.8284, loss_rd:0.2412, loss_svdd:4.5872
+epoch [83/200], loss_total:4.8465, loss_rd:0.2411, loss_svdd:4.6054
+epoch [84/200], loss_total:4.8656, loss_rd:0.2411, loss_svdd:4.6245
+epoch [85/200], loss_total:4.8851, loss_rd:0.2406, loss_svdd:4.6445
+Sample Auroc{'bottle': 1.0, 'cable': 0.927, 'capsule': 0.886, 'carpet': 0.951, 'grid': 0.857, 'hazelnut': 1.0, 'leather': 1.0, 'metal_nut': 1.0, 'pill': 0.954, 'screw': 0.782, 'tile': 0.955, 'toothbrush': 0.983, 'transistor': 0.989, 'wood': 0.968, 'zipper': 0.965, 'mean': 0.948}
+Pixel Auroc:{'bottle': 0.989, 'cable': 0.928, 'capsule': 0.968, 'carpet': 0.988, 'grid': 0.969, 'hazelnut': 0.991, 'leather': 0.994, 'metal_nut': 0.977, 'pill': 0.97, 'screw': 0.979, 'tile': 0.956, 'toothbrush': 0.99, 'transistor': 0.949, 'wood': 0.956, 'zipper': 0.974, 'mean': 0.972}
+Pixel Aupro{'bottle': 0.966, 'cable': 0.838, 'capsule': 0.89, 'carpet': 0.963, 'grid': 0.907, 'hazelnut': 0.952, 'leather': 0.992, 'metal_nut': 0.913, 'pill': 0.952, 'screw': 0.916, 'tile': 0.903, 'toothbrush': 0.939, 'transistor': 0.844, 'wood': 0.928, 'zipper': 0.931, 'mean': 0.922}
+epoch [86/200], loss_total:4.9049, loss_rd:0.2404, loss_svdd:4.6645
+epoch [87/200], loss_total:4.9265, loss_rd:0.2398, loss_svdd:4.6866
+epoch [88/200], loss_total:4.9498, loss_rd:0.2403, loss_svdd:4.7095
+epoch [89/200], loss_total:4.9729, loss_rd:0.2397, loss_svdd:4.7332
+epoch [90/200], loss_total:4.9984, loss_rd:0.2387, loss_svdd:4.7597
+Sample Auroc{'bottle': 1.0, 'cable': 0.96, 'capsule': 0.956, 'carpet': 0.986, 'grid': 0.994, 'hazelnut': 1.0, 'leather': 1.0, 'metal_nut': 1.0, 'pill': 0.97, 'screw': 0.953, 'tile': 0.986, 'toothbrush': 0.989, 'transistor': 0.999, 'wood': 0.989, 'zipper': 0.968, 'mean': 0.983}
+Pixel Auroc:{'bottle': 0.99, 'cable': 0.953, 'capsule': 0.984, 'carpet': 0.991, 'grid': 0.992, 'hazelnut': 0.991, 'leather': 0.995, 'metal_nut': 0.978, 'pill': 0.976, 'screw': 0.994, 'tile': 0.962, 'toothbrush': 0.99, 'transistor': 0.956, 'wood': 0.963, 'zipper': 0.977, 'mean': 0.979}
+Pixel Aupro{'bottle': 0.968, 'cable': 0.883, 'capsule': 0.942, 'carpet': 0.972, 'grid': 0.975, 'hazelnut': 0.955, 'leather': 0.992, 'metal_nut': 0.915, 'pill': 0.962, 'screw': 0.973, 'tile': 0.917, 'toothbrush': 0.939, 'transistor': 0.861, 'wood': 0.937, 'zipper': 0.939, 'mean': 0.942}
+epoch [91/200], loss_total:5.0245, loss_rd:0.2385, loss_svdd:4.7860
+epoch [92/200], loss_total:5.0531, loss_rd:0.2383, loss_svdd:4.8148
+epoch [93/200], loss_total:5.0870, loss_rd:0.2389, loss_svdd:4.8482
+epoch [94/200], loss_total:5.1208, loss_rd:0.2376, loss_svdd:4.8832
+epoch [95/200], loss_total:5.1591, loss_rd:0.2371, loss_svdd:4.9220
+Sample Auroc{'bottle': 1.0, 'cable': 0.962, 'capsule': 0.958, 'carpet': 0.985, 'grid': 0.997, 'hazelnut': 1.0, 'leather': 1.0, 'metal_nut': 1.0, 'pill': 0.971, 'screw': 0.951, 'tile': 0.986, 'toothbrush': 0.989, 'transistor': 0.997, 'wood': 0.99, 'zipper': 0.973, 'mean': 0.984}
+Pixel Auroc:{'bottle': 0.99, 'cable': 0.953, 'capsule': 0.984, 'carpet': 0.991, 'grid': 0.992, 'hazelnut': 0.991, 'leather': 0.994, 'metal_nut': 0.978, 'pill': 0.977, 'screw': 0.994, 'tile': 0.962, 'toothbrush': 0.99, 'transistor': 0.956, 'wood': 0.963, 'zipper': 0.978, 'mean': 0.98}
+Pixel Aupro{'bottle': 0.968, 'cable': 0.883, 'capsule': 0.942, 'carpet': 0.972, 'grid': 0.975, 'hazelnut': 0.954, 'leather': 0.992, 'metal_nut': 0.915, 'pill': 0.963, 'screw': 0.973, 'tile': 0.917, 'toothbrush': 0.939, 'transistor': 0.861, 'wood': 0.936, 'zipper': 0.94, 'mean': 0.942}
+epoch [96/200], loss_total:5.2029, loss_rd:0.2371, loss_svdd:4.9657
+epoch [97/200], loss_total:5.2448, loss_rd:0.2363, loss_svdd:5.0084
+epoch [98/200], loss_total:5.2910, loss_rd:0.2374, loss_svdd:5.0536
+epoch [99/200], loss_total:5.3386, loss_rd:0.2375, loss_svdd:5.1011
+epoch [100/200], loss_total:5.3822, loss_rd:0.2380, loss_svdd:5.1442
+Sample Auroc{'bottle': 1.0, 'cable': 0.96, 'capsule': 0.962, 'carpet': 0.977, 'grid': 0.997, 'hazelnut': 1.0, 'leather': 1.0, 'metal_nut': 1.0, 'pill': 0.972, 'screw': 0.933, 'tile': 0.987, 'toothbrush': 0.989, 'transistor': 0.998, 'wood': 0.99, 'zipper': 0.95, 'mean': 0.981}
+Pixel Auroc:{'bottle': 0.99, 'cable': 0.951, 'capsule': 0.984, 'carpet': 0.972, 'grid': 0.992, 'hazelnut': 0.991, 'leather': 0.995, 'metal_nut': 0.978, 'pill': 0.976, 'screw': 0.994, 'tile': 0.962, 'toothbrush': 0.99, 'transistor': 0.956, 'wood': 0.964, 'zipper': 0.974, 'mean': 0.978}
+Pixel Aupro{'bottle': 0.968, 'cable': 0.88, 'capsule': 0.94, 'carpet': 0.927, 'grid': 0.975, 'hazelnut': 0.954, 'leather': 0.992, 'metal_nut': 0.914, 'pill': 0.962, 'screw': 0.973, 'tile': 0.918, 'toothbrush': 0.939, 'transistor': 0.86, 'wood': 0.938, 'zipper': 0.929, 'mean': 0.938}
+epoch [101/200], loss_total:5.4169, loss_rd:0.2352, loss_svdd:5.1817
+epoch [102/200], loss_total:5.4303, loss_rd:0.2345, loss_svdd:5.1958
+epoch [103/200], loss_total:5.4426, loss_rd:0.2335, loss_svdd:5.2091
+epoch [104/200], loss_total:5.4554, loss_rd:0.2332, loss_svdd:5.2222
+epoch [105/200], loss_total:5.4687, loss_rd:0.2332, loss_svdd:5.2355
+Sample Auroc{'bottle': 1.0, 'cable': 0.96, 'capsule': 0.963, 'carpet': 0.986, 'grid': 0.997, 'hazelnut': 1.0, 'leather': 1.0, 'metal_nut': 1.0, 'pill': 0.972, 'screw': 0.952, 'tile': 0.987, 'toothbrush': 0.986, 'transistor': 0.998, 'wood': 0.986, 'zipper': 0.97, 'mean': 0.984}
+Pixel Auroc:{'bottle': 0.99, 'cable': 0.956, 'capsule': 0.984, 'carpet': 0.991, 'grid': 0.992, 'hazelnut': 0.991, 'leather': 0.995, 'metal_nut': 0.978, 'pill': 0.978, 'screw': 0.994, 'tile': 0.962, 'toothbrush': 0.991, 'transistor': 0.957, 'wood': 0.963, 'zipper': 0.978, 'mean': 0.98}
+Pixel Aupro{'bottle': 0.968, 'cable': 0.886, 'capsule': 0.943, 'carpet': 0.972, 'grid': 0.975, 'hazelnut': 0.954, 'leather': 0.992, 'metal_nut': 0.916, 'pill': 0.964, 'screw': 0.976, 'tile': 0.919, 'toothbrush': 0.941, 'transistor': 0.861, 'wood': 0.936, 'zipper': 0.94, 'mean': 0.943}
+epoch [106/200], loss_total:5.4828, loss_rd:0.2331, loss_svdd:5.2497
+epoch [107/200], loss_total:5.4971, loss_rd:0.2332, loss_svdd:5.2639
+epoch [108/200], loss_total:5.5117, loss_rd:0.2331, loss_svdd:5.2786
+epoch [109/200], loss_total:5.5266, loss_rd:0.2330, loss_svdd:5.2936
+epoch [110/200], loss_total:5.5413, loss_rd:0.2319, loss_svdd:5.3095
+Sample Auroc{'bottle': 1.0, 'cable': 0.957, 'capsule': 0.962, 'carpet': 0.986, 'grid': 0.998, 'hazelnut': 1.0, 'leather': 1.0, 'metal_nut': 1.0, 'pill': 0.972, 'screw': 0.958, 'tile': 0.987, 'toothbrush': 0.989, 'transistor': 0.999, 'wood': 0.988, 'zipper': 0.972, 'mean': 0.985}
+Pixel Auroc:{'bottle': 0.99, 'cable': 0.956, 'capsule': 0.984, 'carpet': 0.991, 'grid': 0.992, 'hazelnut': 0.991, 'leather': 0.995, 'metal_nut': 0.978, 'pill': 0.978, 'screw': 0.994, 'tile': 0.963, 'toothbrush': 0.99, 'transistor': 0.958, 'wood': 0.962, 'zipper': 0.978, 'mean': 0.98}
+Pixel Aupro{'bottle': 0.968, 'cable': 0.886, 'capsule': 0.943, 'carpet': 0.972, 'grid': 0.975, 'hazelnut': 0.954, 'leather': 0.992, 'metal_nut': 0.915, 'pill': 0.964, 'screw': 0.975, 'tile': 0.92, 'toothbrush': 0.94, 'transistor': 0.863, 'wood': 0.936, 'zipper': 0.941, 'mean': 0.943}
+epoch [111/200], loss_total:5.5575, loss_rd:0.2319, loss_svdd:5.3256
+epoch [112/200], loss_total:5.5735, loss_rd:0.2316, loss_svdd:5.3419
+epoch [113/200], loss_total:5.5912, loss_rd:0.2317, loss_svdd:5.3595
+epoch [114/200], loss_total:5.6094, loss_rd:0.2314, loss_svdd:5.3781
+epoch [115/200], loss_total:5.6268, loss_rd:0.2303, loss_svdd:5.3965
+Sample Auroc{'bottle': 1.0, 'cable': 0.958, 'capsule': 0.962, 'carpet': 0.984, 'grid': 0.997, 'hazelnut': 1.0, 'leather': 1.0, 'metal_nut': 1.0, 'pill': 0.975, 'screw': 0.953, 'tile': 0.987, 'toothbrush': 0.989, 'transistor': 0.999, 'wood': 0.986, 'zipper': 0.97, 'mean': 0.984}
+Pixel Auroc:{'bottle': 0.99, 'cable': 0.955, 'capsule': 0.984, 'carpet': 0.991, 'grid': 0.992, 'hazelnut': 0.991, 'leather': 0.995, 'metal_nut': 0.978, 'pill': 0.978, 'screw': 0.994, 'tile': 0.962, 'toothbrush': 0.99, 'transistor': 0.958, 'wood': 0.963, 'zipper': 0.979, 'mean': 0.98}
+Pixel Aupro{'bottle': 0.967, 'cable': 0.884, 'capsule': 0.942, 'carpet': 0.971, 'grid': 0.975, 'hazelnut': 0.954, 'leather': 0.992, 'metal_nut': 0.913, 'pill': 0.964, 'screw': 0.975, 'tile': 0.918, 'toothbrush': 0.939, 'transistor': 0.863, 'wood': 0.937, 'zipper': 0.942, 'mean': 0.942}
+epoch [116/200], loss_total:5.6470, loss_rd:0.2310, loss_svdd:5.4160
+epoch [117/200], loss_total:5.6673, loss_rd:0.2306, loss_svdd:5.4368
+epoch [118/200], loss_total:5.6883, loss_rd:0.2313, loss_svdd:5.4570
+epoch [119/200], loss_total:5.7088, loss_rd:0.2303, loss_svdd:5.4785
+epoch [120/200], loss_total:5.7293, loss_rd:0.2300, loss_svdd:5.4994
+Sample Auroc{'bottle': 1.0, 'cable': 0.941, 'capsule': 0.95, 'carpet': 0.982, 'grid': 0.931, 'hazelnut': 1.0, 'leather': 1.0, 'metal_nut': 0.999, 'pill': 0.976, 'screw': 0.933, 'tile': 0.973, 'toothbrush': 0.989, 'transistor': 0.996, 'wood': 0.978, 'zipper': 0.972, 'mean': 0.975}
+Pixel Auroc:{'bottle': 0.989, 'cable': 0.942, 'capsule': 0.981, 'carpet': 0.991, 'grid': 0.988, 'hazelnut': 0.991, 'leather': 0.994, 'metal_nut': 0.977, 'pill': 0.978, 'screw': 0.993, 'tile': 0.959, 'toothbrush': 0.99, 'transistor': 0.953, 'wood': 0.957, 'zipper': 0.979, 'mean': 0.977}
+Pixel Aupro{'bottle': 0.967, 'cable': 0.865, 'capsule': 0.935, 'carpet': 0.97, 'grid': 0.96, 'hazelnut': 0.954, 'leather': 0.992, 'metal_nut': 0.911, 'pill': 0.964, 'screw': 0.969, 'tile': 0.904, 'toothbrush': 0.939, 'transistor': 0.853, 'wood': 0.923, 'zipper': 0.943, 'mean': 0.937}
+epoch [121/200], loss_total:5.7438, loss_rd:0.2290, loss_svdd:5.5148
+epoch [122/200], loss_total:5.7522, loss_rd:0.2294, loss_svdd:5.5228
+epoch [123/200], loss_total:5.7603, loss_rd:0.2287, loss_svdd:5.5316
+epoch [124/200], loss_total:5.7692, loss_rd:0.2288, loss_svdd:5.5403
+epoch [125/200], loss_total:5.7781, loss_rd:0.2286, loss_svdd:5.5495
+Sample Auroc{'bottle': 1.0, 'cable': 0.961, 'capsule': 0.967, 'carpet': 0.986, 'grid': 0.999, 'hazelnut': 1.0, 'leather': 1.0, 'metal_nut': 1.0, 'pill': 0.975, 'screw': 0.957, 'tile': 0.986, 'toothbrush': 0.989, 'transistor': 0.998, 'wood': 0.988, 'zipper': 0.972, 'mean': 0.985}
+Pixel Auroc:{'bottle': 0.99, 'cable': 0.956, 'capsule': 0.985, 'carpet': 0.991, 'grid': 0.992, 'hazelnut': 0.991, 'leather': 0.994, 'metal_nut': 0.978, 'pill': 0.979, 'screw': 0.994, 'tile': 0.963, 'toothbrush': 0.99, 'transistor': 0.957, 'wood': 0.963, 'zipper': 0.98, 'mean': 0.98}
+Pixel Aupro{'bottle': 0.968, 'cable': 0.885, 'capsule': 0.944, 'carpet': 0.972, 'grid': 0.975, 'hazelnut': 0.954, 'leather': 0.992, 'metal_nut': 0.914, 'pill': 0.965, 'screw': 0.975, 'tile': 0.919, 'toothbrush': 0.94, 'transistor': 0.862, 'wood': 0.936, 'zipper': 0.945, 'mean': 0.943}
+epoch [126/200], loss_total:5.7870, loss_rd:0.2286, loss_svdd:5.5584
+epoch [127/200], loss_total:5.7962, loss_rd:0.2285, loss_svdd:5.5677
+epoch [128/200], loss_total:5.8048, loss_rd:0.2277, loss_svdd:5.5771
+epoch [129/200], loss_total:5.8156, loss_rd:0.2282, loss_svdd:5.5874
+epoch [130/200], loss_total:5.8249, loss_rd:0.2284, loss_svdd:5.5965
+Sample Auroc{'bottle': 1.0, 'cable': 0.962, 'capsule': 0.968, 'carpet': 0.986, 'grid': 0.999, 'hazelnut': 1.0, 'leather': 1.0, 'metal_nut': 1.0, 'pill': 0.976, 'screw': 0.958, 'tile': 0.987, 'toothbrush': 0.989, 'transistor': 0.997, 'wood': 0.985, 'zipper': 0.977, 'mean': 0.986}
+Pixel Auroc:{'bottle': 0.99, 'cable': 0.957, 'capsule': 0.984, 'carpet': 0.991, 'grid': 0.992, 'hazelnut': 0.991, 'leather': 0.995, 'metal_nut': 0.978, 'pill': 0.979, 'screw': 0.994, 'tile': 0.963, 'toothbrush': 0.99, 'transistor': 0.957, 'wood': 0.963, 'zipper': 0.98, 'mean': 0.98}
+Pixel Aupro{'bottle': 0.968, 'cable': 0.887, 'capsule': 0.943, 'carpet': 0.972, 'grid': 0.975, 'hazelnut': 0.954, 'leather': 0.992, 'metal_nut': 0.915, 'pill': 0.965, 'screw': 0.976, 'tile': 0.919, 'toothbrush': 0.94, 'transistor': 0.861, 'wood': 0.936, 'zipper': 0.945, 'mean': 0.943}
+epoch [131/200], loss_total:5.8348, loss_rd:0.2277, loss_svdd:5.6071
+epoch [132/200], loss_total:5.8454, loss_rd:0.2282, loss_svdd:5.6172
+epoch [133/200], loss_total:5.8555, loss_rd:0.2281, loss_svdd:5.6274
+epoch [134/200], loss_total:5.8648, loss_rd:0.2272, loss_svdd:5.6376
+epoch [135/200], loss_total:5.8758, loss_rd:0.2278, loss_svdd:5.6480
+Sample Auroc{'bottle': 1.0, 'cable': 0.958, 'capsule': 0.967, 'carpet': 0.987, 'grid': 1.0, 'hazelnut': 1.0, 'leather': 1.0, 'metal_nut': 1.0, 'pill': 0.977, 'screw': 0.954, 'tile': 0.986, 'toothbrush': 0.989, 'transistor': 0.998, 'wood': 0.988, 'zipper': 0.975, 'mean': 0.985}
+Pixel Auroc:{'bottle': 0.99, 'cable': 0.957, 'capsule': 0.984, 'carpet': 0.991, 'grid': 0.992, 'hazelnut': 0.991, 'leather': 0.995, 'metal_nut': 0.978, 'pill': 0.978, 'screw': 0.994, 'tile': 0.963, 'toothbrush': 0.99, 'transistor': 0.958, 'wood': 0.963, 'zipper': 0.979, 'mean': 0.98}
+Pixel Aupro{'bottle': 0.967, 'cable': 0.887, 'capsule': 0.942, 'carpet': 0.971, 'grid': 0.975, 'hazelnut': 0.954, 'leather': 0.992, 'metal_nut': 0.915, 'pill': 0.965, 'screw': 0.975, 'tile': 0.919, 'toothbrush': 0.939, 'transistor': 0.863, 'wood': 0.937, 'zipper': 0.944, 'mean': 0.943}
+epoch [136/200], loss_total:5.8853, loss_rd:0.2270, loss_svdd:5.6583
+epoch [137/200], loss_total:5.8963, loss_rd:0.2271, loss_svdd:5.6692
+epoch [138/200], loss_total:5.9073, loss_rd:0.2273, loss_svdd:5.6800
+epoch [139/200], loss_total:5.9197, loss_rd:0.2279, loss_svdd:5.6918
+epoch [140/200], loss_total:5.9283, loss_rd:0.2273, loss_svdd:5.7010
+Sample Auroc{'bottle': 1.0, 'cable': 0.959, 'capsule': 0.968, 'carpet': 0.985, 'grid': 0.999, 'hazelnut': 1.0, 'leather': 1.0, 'metal_nut': 1.0, 'pill': 0.977, 'screw': 0.957, 'tile': 0.985, 'toothbrush': 0.989, 'transistor': 0.996, 'wood': 0.986, 'zipper': 0.972, 'mean': 0.985}
+Pixel Auroc:{'bottle': 0.99, 'cable': 0.956, 'capsule': 0.984, 'carpet': 0.991, 'grid': 0.992, 'hazelnut': 0.991, 'leather': 0.995, 'metal_nut': 0.978, 'pill': 0.979, 'screw': 0.994, 'tile': 0.962, 'toothbrush': 0.99, 'transistor': 0.958, 'wood': 0.963, 'zipper': 0.978, 'mean': 0.98}
+Pixel Aupro{'bottle': 0.967, 'cable': 0.884, 'capsule': 0.943, 'carpet': 0.972, 'grid': 0.975, 'hazelnut': 0.954, 'leather': 0.992, 'metal_nut': 0.914, 'pill': 0.965, 'screw': 0.975, 'tile': 0.919, 'toothbrush': 0.939, 'transistor': 0.862, 'wood': 0.936, 'zipper': 0.942, 'mean': 0.943}
+epoch [141/200], loss_total:5.9360, loss_rd:0.2262, loss_svdd:5.7099
+epoch [142/200], loss_total:5.9417, loss_rd:0.2266, loss_svdd:5.7152
+epoch [143/200], loss_total:5.9470, loss_rd:0.2268, loss_svdd:5.7202
+epoch [144/200], loss_total:5.9517, loss_rd:0.2264, loss_svdd:5.7253
+epoch [145/200], loss_total:5.9561, loss_rd:0.2256, loss_svdd:5.7306
+Sample Auroc{'bottle': 1.0, 'cable': 0.962, 'capsule': 0.966, 'carpet': 0.984, 'grid': 0.999, 'hazelnut': 1.0, 'leather': 1.0, 'metal_nut': 1.0, 'pill': 0.976, 'screw': 0.958, 'tile': 0.986, 'toothbrush': 0.989, 'transistor': 0.999, 'wood': 0.988, 'zipper': 0.973, 'mean': 0.985}
+Pixel Auroc:{'bottle': 0.99, 'cable': 0.957, 'capsule': 0.984, 'carpet': 0.991, 'grid': 0.992, 'hazelnut': 0.991, 'leather': 0.995, 'metal_nut': 0.978, 'pill': 0.979, 'screw': 0.994, 'tile': 0.963, 'toothbrush': 0.99, 'transistor': 0.959, 'wood': 0.963, 'zipper': 0.978, 'mean': 0.98}
+Pixel Aupro{'bottle': 0.967, 'cable': 0.887, 'capsule': 0.944, 'carpet': 0.972, 'grid': 0.975, 'hazelnut': 0.954, 'leather': 0.992, 'metal_nut': 0.914, 'pill': 0.966, 'screw': 0.976, 'tile': 0.919, 'toothbrush': 0.939, 'transistor': 0.865, 'wood': 0.937, 'zipper': 0.942, 'mean': 0.943}
+epoch [146/200], loss_total:5.9618, loss_rd:0.2258, loss_svdd:5.7360
+epoch [147/200], loss_total:5.9670, loss_rd:0.2259, loss_svdd:5.7411
+epoch [148/200], loss_total:5.9728, loss_rd:0.2260, loss_svdd:5.7468
+epoch [149/200], loss_total:5.9795, loss_rd:0.2265, loss_svdd:5.7530
+epoch [150/200], loss_total:5.9862, loss_rd:0.2259, loss_svdd:5.7603
+Sample Auroc{'bottle': 1.0, 'cable': 0.958, 'capsule': 0.966, 'carpet': 0.984, 'grid': 1.0, 'hazelnut': 1.0, 'leather': 1.0, 'metal_nut': 1.0, 'pill': 0.977, 'screw': 0.952, 'tile': 0.986, 'toothbrush': 0.989, 'transistor': 0.998, 'wood': 0.989, 'zipper': 0.973, 'mean': 0.985}
+Pixel Auroc:{'bottle': 0.99, 'cable': 0.958, 'capsule': 0.984, 'carpet': 0.991, 'grid': 0.992, 'hazelnut': 0.991, 'leather': 0.995, 'metal_nut': 0.978, 'pill': 0.979, 'screw': 0.994, 'tile': 0.962, 'toothbrush': 0.99, 'transistor': 0.959, 'wood': 0.963, 'zipper': 0.977, 'mean': 0.98}
+Pixel Aupro{'bottle': 0.967, 'cable': 0.887, 'capsule': 0.943, 'carpet': 0.97, 'grid': 0.975, 'hazelnut': 0.954, 'leather': 0.992, 'metal_nut': 0.914, 'pill': 0.966, 'screw': 0.975, 'tile': 0.918, 'toothbrush': 0.939, 'transistor': 0.865, 'wood': 0.937, 'zipper': 0.941, 'mean': 0.943}
+epoch [151/200], loss_total:5.9912, loss_rd:0.2254, loss_svdd:5.7658
+epoch [152/200], loss_total:5.9963, loss_rd:0.2255, loss_svdd:5.7708
+epoch [153/200], loss_total:6.0015, loss_rd:0.2258, loss_svdd:5.7757
+epoch [154/200], loss_total:6.0065, loss_rd:0.2256, loss_svdd:5.7809
+epoch [155/200], loss_total:6.0110, loss_rd:0.2251, loss_svdd:5.7858
+Sample Auroc{'bottle': 1.0, 'cable': 0.963, 'capsule': 0.968, 'carpet': 0.984, 'grid': 0.999, 'hazelnut': 1.0, 'leather': 1.0, 'metal_nut': 1.0, 'pill': 0.976, 'screw': 0.959, 'tile': 0.986, 'toothbrush': 0.989, 'transistor': 0.998, 'wood': 0.988, 'zipper': 0.972, 'mean': 0.985}
+Pixel Auroc:{'bottle': 0.99, 'cable': 0.957, 'capsule': 0.985, 'carpet': 0.991, 'grid': 0.992, 'hazelnut': 0.991, 'leather': 0.995, 'metal_nut': 0.979, 'pill': 0.979, 'screw': 0.994, 'tile': 0.962, 'toothbrush': 0.99, 'transistor': 0.958, 'wood': 0.963, 'zipper': 0.977, 'mean': 0.98}
+Pixel Aupro{'bottle': 0.967, 'cable': 0.887, 'capsule': 0.944, 'carpet': 0.972, 'grid': 0.975, 'hazelnut': 0.954, 'leather': 0.992, 'metal_nut': 0.916, 'pill': 0.966, 'screw': 0.976, 'tile': 0.918, 'toothbrush': 0.94, 'transistor': 0.864, 'wood': 0.937, 'zipper': 0.94, 'mean': 0.943}
+epoch [156/200], loss_total:6.0161, loss_rd:0.2250, loss_svdd:5.7911
+epoch [157/200], loss_total:6.0213, loss_rd:0.2250, loss_svdd:5.7963
+epoch [158/200], loss_total:6.0271, loss_rd:0.2257, loss_svdd:5.8014
+epoch [159/200], loss_total:6.0326, loss_rd:0.2256, loss_svdd:5.8069
+epoch [160/200], loss_total:6.0378, loss_rd:0.2253, loss_svdd:5.8125
+Sample Auroc{'bottle': 1.0, 'cable': 0.962, 'capsule': 0.968, 'carpet': 0.984, 'grid': 1.0, 'hazelnut': 1.0, 'leather': 1.0, 'metal_nut': 0.999, 'pill': 0.976, 'screw': 0.959, 'tile': 0.986, 'toothbrush': 0.989, 'transistor': 0.998, 'wood': 0.988, 'zipper': 0.975, 'mean': 0.986}
+Pixel Auroc:{'bottle': 0.99, 'cable': 0.957, 'capsule': 0.985, 'carpet': 0.991, 'grid': 0.992, 'hazelnut': 0.991, 'leather': 0.995, 'metal_nut': 0.978, 'pill': 0.98, 'screw': 0.995, 'tile': 0.963, 'toothbrush': 0.99, 'transistor': 0.957, 'wood': 0.963, 'zipper': 0.977, 'mean': 0.98}
+Pixel Aupro{'bottle': 0.968, 'cable': 0.886, 'capsule': 0.945, 'carpet': 0.972, 'grid': 0.976, 'hazelnut': 0.954, 'leather': 0.992, 'metal_nut': 0.914, 'pill': 0.967, 'screw': 0.976, 'tile': 0.919, 'toothbrush': 0.94, 'transistor': 0.863, 'wood': 0.936, 'zipper': 0.94, 'mean': 0.943}
+epoch [161/200], loss_total:6.0408, loss_rd:0.2247, loss_svdd:5.8161
+epoch [162/200], loss_total:6.0437, loss_rd:0.2246, loss_svdd:5.8191
+epoch [163/200], loss_total:6.0476, loss_rd:0.2256, loss_svdd:5.8220
+epoch [164/200], loss_total:6.0494, loss_rd:0.2246, loss_svdd:5.8249
+epoch [165/200], loss_total:6.0529, loss_rd:0.2253, loss_svdd:5.8276
+Sample Auroc{'bottle': 1.0, 'cable': 0.961, 'capsule': 0.968, 'carpet': 0.985, 'grid': 1.0, 'hazelnut': 1.0, 'leather': 1.0, 'metal_nut': 1.0, 'pill': 0.976, 'screw': 0.959, 'tile': 0.986, 'toothbrush': 0.989, 'transistor': 0.998, 'wood': 0.988, 'zipper': 0.974, 'mean': 0.986}
+Pixel Auroc:{'bottle': 0.99, 'cable': 0.958, 'capsule': 0.985, 'carpet': 0.991, 'grid': 0.992, 'hazelnut': 0.991, 'leather': 0.995, 'metal_nut': 0.978, 'pill': 0.979, 'screw': 0.994, 'tile': 0.962, 'toothbrush': 0.99, 'transistor': 0.958, 'wood': 0.963, 'zipper': 0.977, 'mean': 0.98}
+Pixel Aupro{'bottle': 0.967, 'cable': 0.887, 'capsule': 0.944, 'carpet': 0.971, 'grid': 0.975, 'hazelnut': 0.954, 'leather': 0.992, 'metal_nut': 0.915, 'pill': 0.966, 'screw': 0.976, 'tile': 0.918, 'toothbrush': 0.939, 'transistor': 0.863, 'wood': 0.937, 'zipper': 0.939, 'mean': 0.943}
+epoch [166/200], loss_total:6.0554, loss_rd:0.2247, loss_svdd:5.8307
+epoch [167/200], loss_total:6.0583, loss_rd:0.2248, loss_svdd:5.8335
+epoch [168/200], loss_total:6.0611, loss_rd:0.2246, loss_svdd:5.8365
+epoch [169/200], loss_total:6.0649, loss_rd:0.2249, loss_svdd:5.8400
+epoch [170/200], loss_total:6.0668, loss_rd:0.2244, loss_svdd:5.8424
+Sample Auroc{'bottle': 1.0, 'cable': 0.963, 'capsule': 0.968, 'carpet': 0.985, 'grid': 0.999, 'hazelnut': 1.0, 'leather': 1.0, 'metal_nut': 1.0, 'pill': 0.976, 'screw': 0.96, 'tile': 0.986, 'toothbrush': 0.989, 'transistor': 0.998, 'wood': 0.988, 'zipper': 0.974, 'mean': 0.986}
+Pixel Auroc:{'bottle': 0.99, 'cable': 0.958, 'capsule': 0.985, 'carpet': 0.991, 'grid': 0.992, 'hazelnut': 0.991, 'leather': 0.995, 'metal_nut': 0.978, 'pill': 0.98, 'screw': 0.994, 'tile': 0.963, 'toothbrush': 0.99, 'transistor': 0.958, 'wood': 0.963, 'zipper': 0.976, 'mean': 0.98}
+Pixel Aupro{'bottle': 0.968, 'cable': 0.887, 'capsule': 0.944, 'carpet': 0.972, 'grid': 0.975, 'hazelnut': 0.954, 'leather': 0.992, 'metal_nut': 0.915, 'pill': 0.966, 'screw': 0.976, 'tile': 0.919, 'toothbrush': 0.94, 'transistor': 0.863, 'wood': 0.936, 'zipper': 0.939, 'mean': 0.943}
+epoch [171/200], loss_total:6.0714, loss_rd:0.2252, loss_svdd:5.8462
+epoch [172/200], loss_total:6.0729, loss_rd:0.2247, loss_svdd:5.8482
+epoch [173/200], loss_total:6.0763, loss_rd:0.2245, loss_svdd:5.8518
+epoch [174/200], loss_total:6.0799, loss_rd:0.2247, loss_svdd:5.8551
+epoch [175/200], loss_total:6.0822, loss_rd:0.2244, loss_svdd:5.8578
+Sample Auroc{'bottle': 1.0, 'cable': 0.962, 'capsule': 0.968, 'carpet': 0.984, 'grid': 0.999, 'hazelnut': 1.0, 'leather': 1.0, 'metal_nut': 1.0, 'pill': 0.975, 'screw': 0.96, 'tile': 0.986, 'toothbrush': 0.989, 'transistor': 0.998, 'wood': 0.988, 'zipper': 0.974, 'mean': 0.986}
+Pixel Auroc:{'bottle': 0.99, 'cable': 0.958, 'capsule': 0.985, 'carpet': 0.991, 'grid': 0.992, 'hazelnut': 0.991, 'leather': 0.995, 'metal_nut': 0.978, 'pill': 0.98, 'screw': 0.994, 'tile': 0.963, 'toothbrush': 0.99, 'transistor': 0.959, 'wood': 0.963, 'zipper': 0.976, 'mean': 0.98}
+Pixel Aupro{'bottle': 0.968, 'cable': 0.887, 'capsule': 0.945, 'carpet': 0.972, 'grid': 0.975, 'hazelnut': 0.954, 'leather': 0.992, 'metal_nut': 0.914, 'pill': 0.966, 'screw': 0.976, 'tile': 0.92, 'toothbrush': 0.94, 'transistor': 0.864, 'wood': 0.936, 'zipper': 0.938, 'mean': 0.943}
+epoch [176/200], loss_total:6.0852, loss_rd:0.2238, loss_svdd:5.8614
+epoch [177/200], loss_total:6.0888, loss_rd:0.2246, loss_svdd:5.8642
+epoch [178/200], loss_total:6.0922, loss_rd:0.2246, loss_svdd:5.8676
+epoch [179/200], loss_total:6.0949, loss_rd:0.2241, loss_svdd:5.8708
+epoch [180/200], loss_total:6.0981, loss_rd:0.2241, loss_svdd:5.8739
+Sample Auroc{'bottle': 1.0, 'cable': 0.961, 'capsule': 0.969, 'carpet': 0.985, 'grid': 1.0, 'hazelnut': 1.0, 'leather': 1.0, 'metal_nut': 1.0, 'pill': 0.975, 'screw': 0.958, 'tile': 0.986, 'toothbrush': 0.989, 'transistor': 0.998, 'wood': 0.988, 'zipper': 0.976, 'mean': 0.986}
+Pixel Auroc:{'bottle': 0.99, 'cable': 0.958, 'capsule': 0.985, 'carpet': 0.991, 'grid': 0.992, 'hazelnut': 0.991, 'leather': 0.995, 'metal_nut': 0.978, 'pill': 0.979, 'screw': 0.994, 'tile': 0.963, 'toothbrush': 0.99, 'transistor': 0.96, 'wood': 0.963, 'zipper': 0.976, 'mean': 0.98}
+Pixel Aupro{'bottle': 0.967, 'cable': 0.887, 'capsule': 0.944, 'carpet': 0.972, 'grid': 0.975, 'hazelnut': 0.954, 'leather': 0.992, 'metal_nut': 0.914, 'pill': 0.966, 'screw': 0.976, 'tile': 0.919, 'toothbrush': 0.939, 'transistor': 0.864, 'wood': 0.936, 'zipper': 0.938, 'mean': 0.943}
+epoch [181/200], loss_total:6.1009, loss_rd:0.2245, loss_svdd:5.8764
+epoch [182/200], loss_total:6.1022, loss_rd:0.2241, loss_svdd:5.8780
+epoch [183/200], loss_total:6.1038, loss_rd:0.2241, loss_svdd:5.8797
+epoch [184/200], loss_total:6.1051, loss_rd:0.2238, loss_svdd:5.8812
+epoch [185/200], loss_total:6.1071, loss_rd:0.2245, loss_svdd:5.8827
+Sample Auroc{'bottle': 1.0, 'cable': 0.961, 'capsule': 0.968, 'carpet': 0.985, 'grid': 0.999, 'hazelnut': 1.0, 'leather': 1.0, 'metal_nut': 1.0, 'pill': 0.975, 'screw': 0.957, 'tile': 0.986, 'toothbrush': 0.989, 'transistor': 0.998, 'wood': 0.988, 'zipper': 0.973, 'mean': 0.985}
+Pixel Auroc:{'bottle': 0.99, 'cable': 0.957, 'capsule': 0.985, 'carpet': 0.991, 'grid': 0.992, 'hazelnut': 0.991, 'leather': 0.995, 'metal_nut': 0.978, 'pill': 0.98, 'screw': 0.994, 'tile': 0.963, 'toothbrush': 0.99, 'transistor': 0.958, 'wood': 0.963, 'zipper': 0.976, 'mean': 0.98}
+Pixel Aupro{'bottle': 0.967, 'cable': 0.886, 'capsule': 0.944, 'carpet': 0.972, 'grid': 0.975, 'hazelnut': 0.954, 'leather': 0.992, 'metal_nut': 0.913, 'pill': 0.966, 'screw': 0.976, 'tile': 0.92, 'toothbrush': 0.94, 'transistor': 0.863, 'wood': 0.936, 'zipper': 0.938, 'mean': 0.943}
+epoch [186/200], loss_total:6.1088, loss_rd:0.2241, loss_svdd:5.8848
+epoch [187/200], loss_total:6.1103, loss_rd:0.2241, loss_svdd:5.8862
+epoch [188/200], loss_total:6.1115, loss_rd:0.2236, loss_svdd:5.8879
+epoch [189/200], loss_total:6.1136, loss_rd:0.2240, loss_svdd:5.8896
+epoch [190/200], loss_total:6.1152, loss_rd:0.2239, loss_svdd:5.8913
+Sample Auroc{'bottle': 1.0, 'cable': 0.962, 'capsule': 0.969, 'carpet': 0.984, 'grid': 1.0, 'hazelnut': 1.0, 'leather': 1.0, 'metal_nut': 1.0, 'pill': 0.975, 'screw': 0.958, 'tile': 0.986, 'toothbrush': 0.989, 'transistor': 0.998, 'wood': 0.986, 'zipper': 0.977, 'mean': 0.986}
+Pixel Auroc:{'bottle': 0.99, 'cable': 0.957, 'capsule': 0.985, 'carpet': 0.991, 'grid': 0.992, 'hazelnut': 0.991, 'leather': 0.995, 'metal_nut': 0.978, 'pill': 0.98, 'screw': 0.994, 'tile': 0.963, 'toothbrush': 0.99, 'transistor': 0.958, 'wood': 0.963, 'zipper': 0.976, 'mean': 0.98}
+Pixel Aupro{'bottle': 0.967, 'cable': 0.886, 'capsule': 0.944, 'carpet': 0.972, 'grid': 0.975, 'hazelnut': 0.954, 'leather': 0.992, 'metal_nut': 0.914, 'pill': 0.966, 'screw': 0.976, 'tile': 0.919, 'toothbrush': 0.94, 'transistor': 0.863, 'wood': 0.936, 'zipper': 0.939, 'mean': 0.943}
+epoch [191/200], loss_total:6.1168, loss_rd:0.2239, loss_svdd:5.8929
+epoch [192/200], loss_total:6.1186, loss_rd:0.2239, loss_svdd:5.8947
+epoch [193/200], loss_total:6.1201, loss_rd:0.2237, loss_svdd:5.8964
+epoch [194/200], loss_total:6.1222, loss_rd:0.2241, loss_svdd:5.8981
+epoch [195/200], loss_total:6.1239, loss_rd:0.2242, loss_svdd:5.8997
+Sample Auroc{'bottle': 1.0, 'cable': 0.961, 'capsule': 0.968, 'carpet': 0.985, 'grid': 0.999, 'hazelnut': 1.0, 'leather': 1.0, 'metal_nut': 0.999, 'pill': 0.976, 'screw': 0.96, 'tile': 0.986, 'toothbrush': 0.989, 'transistor': 0.998, 'wood': 0.988, 'zipper': 0.976, 'mean': 0.986}
+Pixel Auroc:{'bottle': 0.99, 'cable': 0.958, 'capsule': 0.985, 'carpet': 0.991, 'grid': 0.992, 'hazelnut': 0.991, 'leather': 0.995, 'metal_nut': 0.978, 'pill': 0.979, 'screw': 0.994, 'tile': 0.963, 'toothbrush': 0.99, 'transistor': 0.958, 'wood': 0.963, 'zipper': 0.976, 'mean': 0.98}
+Pixel Aupro{'bottle': 0.968, 'cable': 0.887, 'capsule': 0.944, 'carpet': 0.972, 'grid': 0.976, 'hazelnut': 0.954, 'leather': 0.992, 'metal_nut': 0.914, 'pill': 0.966, 'screw': 0.976, 'tile': 0.919, 'toothbrush': 0.94, 'transistor': 0.864, 'wood': 0.936, 'zipper': 0.938, 'mean': 0.943}
+epoch [196/200], loss_total:6.1253, loss_rd:0.2238, loss_svdd:5.9015
+epoch [197/200], loss_total:6.1268, loss_rd:0.2236, loss_svdd:5.9032
+epoch [198/200], loss_total:6.1286, loss_rd:0.2239, loss_svdd:5.9047
+epoch [199/200], loss_total:6.1306, loss_rd:0.2240, loss_svdd:5.9066
+epoch [200/200], loss_total:6.1320, loss_rd:0.2238, loss_svdd:5.9082
+Sample Auroc{'bottle': 1.0, 'cable': 0.961, 'capsule': 0.968, 'carpet': 0.984, 'grid': 1.0, 'hazelnut': 1.0, 'leather': 1.0, 'metal_nut': 1.0, 'pill': 0.976, 'screw': 0.959, 'tile': 0.986, 'toothbrush': 0.989, 'transistor': 0.998, 'wood': 0.988, 'zipper': 0.975, 'mean': 0.986}
+Pixel Auroc:{'bottle': 0.99, 'cable': 0.959, 'capsule': 0.985, 'carpet': 0.991, 'grid': 0.992, 'hazelnut': 0.991, 'leather': 0.995, 'metal_nut': 0.979, 'pill': 0.98, 'screw': 0.994, 'tile': 0.963, 'toothbrush': 0.99, 'transistor': 0.959, 'wood': 0.963, 'zipper': 0.976, 'mean': 0.98}
+Pixel Aupro{'bottle': 0.967, 'cable': 0.888, 'capsule': 0.944, 'carpet': 0.972, 'grid': 0.975, 'hazelnut': 0.954, 'leather': 0.992, 'metal_nut': 0.915, 'pill': 0.966, 'screw': 0.976, 'tile': 0.919, 'toothbrush': 0.939, 'transistor': 0.864, 'wood': 0.937, 'zipper': 0.938, 'mean': 0.943}
+Epoch 130 is the Best !
+Sample Auroc: 0.9860, Pixel Auroc: 0.9800, Pixel Aupro: 0.9430
