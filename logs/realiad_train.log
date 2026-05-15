@@ -1,0 +1,73 @@
+device = cuda
+epoch [1/10], loss_total:0.4245, loss_rd:0.3833, loss_svdd:0.0412
+epoch [2/10], loss_total:0.2292, loss_rd:0.2239, loss_svdd:0.0052
+epoch [3/10], loss_total:0.1923, loss_rd:0.1880, loss_svdd:0.0043
+epoch [4/10], loss_total:0.1705, loss_rd:0.1674, loss_svdd:0.0030
+epoch [5/10], loss_total:0.1547, loss_rd:0.1523, loss_svdd:0.0024
+audiojack: auroc_sp 0.777, auroc_px 0.969, pro 0.801
+bottle_cap: auroc_sp 0.91, auroc_px 0.995, pro 0.979
+button_battery: auroc_sp 0.711, auroc_px 0.974, pro 0.878
+end_cap: auroc_sp 0.752, auroc_px 0.963, pro 0.889
+eraser: auroc_sp 0.906, auroc_px 0.995, pro 0.965
+fire_hood: auroc_sp 0.8, auroc_px 0.986, pro 0.908
+mint: auroc_sp 0.636, auroc_px 0.934, pro 0.675
+mounts: auroc_sp 0.866, auroc_px 0.993, pro 0.964
+pcb: auroc_sp 0.844, auroc_px 0.987, pro 0.917
+phone_battery: auroc_sp 0.892, auroc_px 0.778, pro 0.952
+plastic_nut: auroc_sp 0.814, auroc_px 0.991, pro 0.952
+plastic_plug: auroc_sp 0.876, auroc_px 0.991, pro 0.954
+porcelain_doll: auroc_sp 0.866, auroc_px 0.993, pro 0.969
+regulator: auroc_sp 0.518, auroc_px 0.954, pro 0.824
+rolled_strip_base: auroc_sp 0.987, auroc_px 0.998, pro 0.994
+sim_card_set: auroc_sp 0.931, auroc_px 0.984, pro 0.901
+switch: auroc_sp 0.873, auroc_px 0.957, pro 0.897
+tape: auroc_sp 0.963, auroc_px 0.997, pro 0.985
+terminalblock: auroc_sp 0.94, auroc_px 0.997, pro 0.988
+toothbrush: auroc_sp 0.805, auroc_px 0.972, pro 0.892
+toy: auroc_sp 0.766, auroc_px 0.948, pro 0.847
+toy_brick: auroc_sp 0.726, auroc_px 0.974, pro 0.87
+transistor1: auroc_sp 0.923, auroc_px 0.992, pro 0.963
+usb: auroc_sp 0.897, auroc_px 0.983, pro 0.922
+usb_adaptor: auroc_sp 0.763, auroc_px 0.962, pro 0.801
+u_block: auroc_sp 0.875, auroc_px 0.995, pro 0.965
+vcpill: auroc_sp 0.839, auroc_px 0.98, pro 0.883
+wooden_beads: auroc_sp 0.833, auroc_px 0.98, pro 0.858
+woodstick: auroc_sp 0.786, auroc_px 0.975, pro 0.855
+zipper: auroc_sp 0.977, auroc_px 0.991, pro 0.97
+epoch4: auroc_sp 0.8350666666666666, auroc_px 0.9729333333333334, pro 0.9072666666666666
+epoch [6/10], loss_total:0.1446, loss_rd:0.1426, loss_svdd:0.0021
+epoch [7/10], loss_total:0.1411, loss_rd:0.1385, loss_svdd:0.0025
+epoch [8/10], loss_total:0.1307, loss_rd:0.1289, loss_svdd:0.0018
+epoch [9/10], loss_total:0.1220, loss_rd:0.1206, loss_svdd:0.0014
+epoch [10/10], loss_total:0.1186, loss_rd:0.1172, loss_svdd:0.0014
+audiojack: auroc_sp 0.793, auroc_px 0.968, pro 0.795
+bottle_cap: auroc_sp 0.886, auroc_px 0.994, pro 0.979
+button_battery: auroc_sp 0.763, auroc_px 0.976, pro 0.882
+end_cap: auroc_sp 0.755, auroc_px 0.96, pro 0.879
+eraser: auroc_sp 0.884, auroc_px 0.995, pro 0.97
+fire_hood: auroc_sp 0.807, auroc_px 0.986, pro 0.907
+mint: auroc_sp 0.642, auroc_px 0.939, pro 0.698
+mounts: auroc_sp 0.89, auroc_px 0.994, pro 0.961
+pcb: auroc_sp 0.867, auroc_px 0.989, pro 0.926
+phone_battery: auroc_sp 0.885, auroc_px 0.779, pro 0.955
+plastic_nut: auroc_sp 0.804, auroc_px 0.991, pro 0.945
+plastic_plug: auroc_sp 0.884, auroc_px 0.991, pro 0.957
+porcelain_doll: auroc_sp 0.875, auroc_px 0.994, pro 0.971
+regulator: auroc_sp 0.578, auroc_px 0.965, pro 0.858
+rolled_strip_base: auroc_sp 0.984, auroc_px 0.997, pro 0.994
+sim_card_set: auroc_sp 0.842, auroc_px 0.984, pro 0.897
+switch: auroc_sp 0.886, auroc_px 0.959, pro 0.908
+tape: auroc_sp 0.961, auroc_px 0.997, pro 0.986
+terminalblock: auroc_sp 0.927, auroc_px 0.996, pro 0.986
+toothbrush: auroc_sp 0.8, auroc_px 0.971, pro 0.888
+toy: auroc_sp 0.798, auroc_px 0.949, pro 0.853
+toy_brick: auroc_sp 0.72, auroc_px 0.97, pro 0.86
+transistor1: auroc_sp 0.921, auroc_px 0.992, pro 0.964
+usb: auroc_sp 0.896, auroc_px 0.985, pro 0.932
+usb_adaptor: auroc_sp 0.742, auroc_px 0.954, pro 0.763
+u_block: auroc_sp 0.879, auroc_px 0.995, pro 0.968
+vcpill: auroc_sp 0.836, auroc_px 0.979, pro 0.866
+wooden_beads: auroc_sp 0.834, auroc_px 0.979, pro 0.851
+woodstick: auroc_sp 0.788, auroc_px 0.979, pro 0.873
+zipper: auroc_sp 0.974, auroc_px 0.991, pro 0.97
+epoch9: auroc_sp 0.8387000000000001, auroc_px 0.9752666666666666, pro 0.9120666666666666
